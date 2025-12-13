@@ -1,0 +1,89 @@
+-- CONTROL SCREEN DISPLAY ONLY TOTALS / HEADER FIELDS
+-- LINE ENTRY SCREEN LOOKUP DISPLAY ONLY
+-- RUNNING TOTALS FOR LINE ENTRY
+-- dialog pop up not centered
+-- f7 FROM ENTRY LINES NOT WORKING
+-- NUMERIC FIELDS NOT IN REVERSE UPON FOUCUS
+
+-- CHOICE OPTIONS TEXT APPEARS IN A WINDOW THAT MESSES UP THE TEXT ALREADY THERE
+-- UP ARROW ON FIRST FIELD MESSED UP FUNCTION KEY LABELS
+-- AFTER ENTERING OR LOOKING UP FIRST FIELD, FUNCTION KEY LABEL COLOR CHANGES
+-- function key labels disaapear after "do you want to Add record ?" and in some other situations
+-- NEED CHOICES FOR PAPER,ONLINE
+
+-- find and resolve the // TODO: 
+-- setup labels, boxes , etc cshould stop reading abnd exit swhen their closing tag is found
+
+
+
+test possible isuues  like
+-- delete removes all records
+
+-- NUMERIC INPUT DOESN'T DISPLAY DECIMAL IF DECIMAL POINT ISN'T ENTERED
+   FOR EXAMPLE JUST ENTERING 1 <ENTER> SHOULD DISPLAY 1.00
+-- NUMERIC INPUT needs to insert period as user types
+-- STRING INPUT insert works but after inserting can't back space or delete chars inserted
+-- do not allow insert key on choice fields
+
+
+
+-- AR,2,1    F7 10.Exit didn't go back to main menu
+-- do line item entry from control screen
+
+-- Why do i set functionkey=true for KEY_ENTER,KEY_UP & OTHER NON FUNCTION KEYS
+-- do i really need the window pointers in the field vector?
+-- add more input types
+-- Other misc cleanup
+-- Should I change the data entry vector to store "RecordNotFound" etc.
+-- find more places to check for sql errors example : std::string emsg = sqlite3_errmsg(db);
+
+-- add debug for when a window is created or distroyed.
+-- add debug logic for when a db connect / disconnect is executed.
+-- decide if F4 is the way to go to the next screen (or page down?)
+
+-- logic to test if db already exists and if to overwrite and export to text file?
+-- call back feature?
+
+**************************************************************************************************************************************
+Need to use similar logic to read existing trans line in the edit line function.
+
+
+ if (field.primaryKey_ == "Y" && !fieldNames.empty() && field.fieldName_ == fieldNames[index]) {                        
+                            condition.append(fieldNames[index] + " = \'" + fields[index].fieldValue_ + "\'");
+                            if (index != lastPrimaryKeyIndex) {
+                                condition.append(" AND ");
+                            }                     
+                    }
+                    
+                    
+                    
+                    if (index == lastPrimaryKeyIndex) {
+                        Result = "";
+                        AddingNew = false;
+                        EditingRecord = false;
+                        bool prompt = true;
+                        Result = DataEntry::readRecord(field, runClass_, AddingNew, prompt, dbLib_, condition, fields, passParams,debugFile);
+                        if (Result == "Error")
+                            goto handleError;
+                        if (Result == "Exit")
+                            goto Exit;
+                        if (Result == "RecordNotFound") {
+                        }
+
+                        if (Result == "RecordNotFound" || Result == "RecordEntryStart") {
+                            index = 0;
+                            for (auto& field : fields) {
+                                if (index > 0) {
+                                    field.fieldValue_ = "";
+                                    index++;
+                                }
+                            }
+                            goto RecordEntryStart;
+                        }
+                        if (Result == "EditingRecord") {
+                            AddingNew = false;
+                            EditingRecord = true;
+                            if (index == lastPrimaryKeyIndex)
+                                index = lastPrimaryKeyIndex + 1;
+                            goto doDisplayData;
+                        }

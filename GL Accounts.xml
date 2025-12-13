@@ -1,0 +1,160 @@
+<ScreenConfiguration>
+<ScreenSettings>
+<Type>DataEntry</Type>
+<Title>GL Accounts</Title>
+<Col>0</Col>
+<Row>0</Row>
+<Width>80</Width>
+<Height>24</Height>
+<Box>Y</Box>
+<NextType></NextType>
+<NextClass></NextClass>
+<hasControl>N</hasControl>
+<controlRunClass></controlClass>
+<controlmaxRows></controlmaxRows>
+<Boxes>
+<Box>
+  <Col>0</Col>
+  <Row>0</Row>
+  <Cols>80</Cols>
+  <Rows>24</Rows>
+</Box>
+<Box>
+  <Col>1</Col>
+  <Row>21</Row>
+  <Cols>78</Cols>
+  <Rows>0</Rows>
+</Box>
+</Boxes>
+<Labels>
+<Label>
+  <Col>2</Col>
+  <Row>1</Row>
+  <labelText>Acct</labelText>
+</Label>
+<Label>
+  <Col>21</Col>
+  <Row>1</Row>
+  <labelText>Desc</labelText>
+</Label>
+<Label>
+  <Col>58</Col>
+  <Row>1</Row>
+  <labelText>Status</labelText>
+</Label>
+<Label>
+  <Col>2</Col>
+  <Row>2</Row>
+  <labelText>Type</labelText>
+</Label>
+<Label>
+  <Col>21</Col>
+  <Row>2</Row>
+  <labelText>Desc</labelText>
+</Label>
+<Label>
+  <Col>58</Col>
+  <Row>2</Row>
+  <labelText>DB/CR/Memo</labelText>
+</Label>
+<Label>
+  <Col>2</Col>
+  <Row>3</Row>
+  <labelText>Clear To Account</labelText>
+</Label>
+<Label>
+  <Col>35</Col>
+  <Row>3</Row>
+  <labelText>Step</labelText>
+</Label>
+<Label>
+  <Col>58</Col>
+  <Row>3</Row>
+  <labelText>Display</labelText>
+</Label>
+<Label>
+  <Col>2</Col>
+  <Row>4</Row>
+  <labelText>Consol To Account</labelText>
+</Label>
+<Label>
+  <Col>35</Col>
+  <Row>4</Row>
+  <labelText>Step</labelText>
+</Label>
+<Label>
+  <Col>58</Col>
+  <Row>4</Row>
+  <labelText>Ent Method</labelText>
+</Label>
+<Label>
+  <Col>1</Col>
+  <Row>5</Row>
+  <labelText>Period</labelText>
+</Label>
+<Label>
+  <Col>17</Col>
+  <Row>5</Row>
+  <labelText>Actual</labelText>
+</Label>
+<Label>
+  <Col>32</Col>
+  <Row>5</Row>
+  <labelText>CY Budget</labelText>
+</Label>
+<Label>
+  <Col>50</Col>
+  <Row>5</Row>
+  <labelText>Last Year</labelText>
+</Label>
+<Label>
+  <Col>1</Col>
+  <Row>6</Row>
+  <labelText>Begin</labelText>
+</Label>
+<Label>
+  <Col>1</Col>
+  <Row>20</Row>
+  <labelText>End</labelText>
+</Label>
+</Labels>
+</ScreenSettings>
+<dataDictionary>
+<DataEntryFields>
+</field>
+<field>
+  <varName>G1$</varName >
+  <primaryKey>N</primaryKey>
+  <name>DESCR</name>
+  <type>STRING</type>
+  <mask></mask>
+  <length>30</length>
+  <row>1</row>
+  <col>26</col>
+  <defaultValue></defaultValue>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <varName>G5$(1,3)</varName >
+  <primaryKey>N</primaryKey>
+  <name>ACTYP</name>
+  <type>STRING</type>
+  <mask></mask>
+  <length>3</length>
+  <row>2</row>
+  <col>7</col>
+  <defaultValue></defaultValue>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+</dataDictionary>
+</ScreenConfiguration>

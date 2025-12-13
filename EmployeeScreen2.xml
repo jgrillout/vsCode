@@ -1,0 +1,554 @@
+<ScreenConfiguration>
+<ScreenSettings>
+<Type>DataEntry</Type>
+<Title>EmployeeScreen2</Title>
+<Col>0</Col>
+<Row>0</Row>
+<Width>80</Width>
+<Height>24</Height>
+<Box>Y</Box>
+<NextType></NextType>
+<NextClass></NextClass>
+<hasControl>N</hasControl>
+<controlRunClass></controlClass>
+<controlmaxRows></controlmaxRows>
+<Boxes>
+<Box>
+  <Col>0</Col>
+  <Row>0</Row>
+  <Cols>80</Cols>
+  <Rows>24</Rows>
+</Box>
+<Box>
+  <Col>1</Col>
+  <Row>2</Row>
+  <Cols>78</Cols>
+  <Rows>0</Rows>
+</Box>
+<Box>
+  <Col>1</Col>
+  <Row>21</Row>
+  <Cols>78</Cols>
+  <Rows>0</Rows>
+</Box>
+<Box>
+  <Col>38</Col>
+  <Row>3</Row>
+  <Cols>0</Cols>
+  <Rows>18</Rows>
+</Box>
+<Box>
+  <Col>1</Col>
+  <Row>8</Row>
+  <Cols>78</Cols>
+  <Rows>0</Rows>
+</Box>
+<Box>
+  <Col>1</Col>
+  <Row>16</Row>
+  <Cols>78</Cols>
+  <Rows>0</Rows>
+</Box>
+</Boxes>
+<Labels>
+<Label>
+  <Col>2</Col>
+  <Row>1</Row>
+  <labelText>Employee ID</labelText>
+</Label>
+<Label>
+  <Col>15</Col>
+  <Row>2</Row>
+  <labelText> Codes </labelText>
+</Label>
+<Label>
+  <Col>52</Col>
+  <Row>2</Row>
+  <labelText> Pay Information </labelText>
+</Label>
+<Label>
+  <Col>2</Col>
+  <Row>4</Row>
+  <labelText>Home Department</labelText>
+</Label>
+<Label>
+  <Col>40</Col>
+  <Row>4</Row>
+  <labelText>Pay Periods/Year</labelText>
+</Label>
+<Label>
+  <Col>2</Col>
+  <Row>5</Row>
+  <labelText>Labor Class</labelText>
+</Label>
+<Label>
+  <Col>40</Col>
+  <Row>5</Row>
+  <labelText>Salary</labelText>
+</Label>
+<Label>
+  <Col>2</Col>
+  <Row>6</Row>
+  <labelText>Check Location</labelText>
+</Label>
+<Label>
+  <Col>40</Col>
+  <Row>6</Row>
+  <labelText>Hourly Rate</labelText>
+</Label>
+<Label>
+  <Col>2</Col>
+  <Row>7</Row>
+  <labelText>Default Earning Code</labelText>
+</Label>
+<Label>
+  <Col>40</Col>
+  <Row>7</Row>
+  <labelText>Override Pay</labelText>
+</Label>
+<Label>
+  <Col>9</Col>
+  <Row>8</Row>
+  <labelText> General Information </labelText>
+</Label>
+<Label>
+  <Col>2</Col>
+  <Row>9</Row>
+  <labelText>Corporate Officer?</labelText>
+</Label>
+<Label>
+  <Col>2</Col>
+  <Row>10</Row>
+  <labelText>Seasonal Employee?</labelText>
+</Label>
+<Label>
+  <Col>40</Col>
+  <Row>10</Row>
+  <labelText>Sick Accrual Code</labelText>
+</Label>
+<Label>
+  <Col>2</Col>
+  <Row>11</Row>
+  <labelText>Employee Type (H or S)</labelText>
+</Label>
+<Label>
+  <Col>40</Col>
+  <Row>11</Row>
+  <labelText>Vacation Accrual Code</labelText>
+</Label>
+<Label>
+  <Col>2</Col>
+  <Row>12</Row>
+  <labelText>Exempt from Overtime?</labelText>
+</Label>
+<Label>
+  <Col>2</Col>
+  <Row>13</Row>
+  <labelText>Adjust to Minimum?</labelText>
+</Label>
+<Label>
+  <Col>40</Col>
+  <Row>13</Row>
+  <labelText>Sick Hours Remaining</labelText>
+</Label>
+<Label>
+  <Col>2</Col>
+  <Row>14</Row>
+  <labelText>Group Code</labelText>
+</Label>
+<Label>
+  <Col>40</Col>
+  <Row>14</Row>
+  <labelText>Vacation Hours Remaining</labelText>
+</Label>
+<Label>
+  <Col>2</Col>
+  <Row>15</Row>
+  <labelText>Status</labelText>
+</Label>
+<Label>
+  <Col>11</Col>
+  <Row>16</Row>
+  <labelText> CJC Information </labelText>
+</Label>
+<Label>
+  <Col>2</Col>
+  <Row>18</Row>
+  <labelText>Skill Level</labelText>
+</Label>
+<Label>
+  <Col>2</Col>
+  <Row>19</Row>
+  <labelText>Union Code</labelText>
+</Label>
+<Label>
+  <Col>2</Col>
+  <Row>20</Row>
+  <labelText>Workers Comp. Code</labelText>
+</Label>
+</Labels>
+</ScreenSettings>
+<dataDictionary>
+<DataEntryFields>
+<field>
+  <lineno>1080</varName >
+  <varName>EG3$</varName >
+  <primaryKey>N</primaryKey>
+  <name>DEPT</name>
+  <type>STRING</type>
+  <mask></mask>
+  <length>6</length>
+  <row>4</row>
+  <col>27</col>
+  <defaultValue></defaultValue>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <lineno>1160</varName >
+  <varName>EG5$(1,3)</varName >
+  <primaryKey>N</primaryKey>
+  <name>LABOR</name>
+  <type>STRING</type>
+  <mask></mask>
+  <length>3</length>
+  <row>5</row>
+  <col>27</col>
+  <defaultValue></defaultValue>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <lineno>1260</varName >
+  <varName>EG4$(71,3)</varName >
+  <primaryKey>N</primaryKey>
+  <name>CHKLOC</name>
+  <type>STRING</type>
+  <mask></mask>
+  <length>3</length>
+  <row>6</row>
+  <col>27</col>
+  <defaultValue></defaultValue>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <lineno>1310</varName >
+  <varName>EG4$(68,3)</varName >
+  <primaryKey>N</primaryKey>
+  <name>EARN</name>
+  <type>STRING</type>
+  <mask></mask>
+  <length>3</length>
+  <row>7</row>
+  <col>27</col>
+  <defaultValue></defaultValue>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <lineno>1410</varName >
+  <varName>EG4$(61,1)</varName >
+  <primaryKey>N</primaryKey>
+  <name>CORP</name>
+  <type>CHOICE</type>
+  <mask></mask>
+  <length>3</length>
+  <row>9</row>
+  <col>27</col>
+  <defaultValue></defaultValue>
+  <AllowedChoices>YN</AllowedChoices>
+  <ChoiceDescriptions>Yes, No</ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <lineno>1460</varName >
+  <varName>EG4$(62,1)</varName >
+  <primaryKey>N</primaryKey>
+  <name>SEAS</name>
+  <type>CHOICE</type>
+  <mask></mask>
+  <length>3</length>
+  <row>10</row>
+  <col>27</col>
+  <defaultValue></defaultValue>
+  <AllowedChoices>YN</AllowedChoices>
+  <ChoiceDescriptions>Yes, No</ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <lineno>1510</varName >
+  <varName>EG5$(4,1)</varName >
+  <primaryKey>N</primaryKey>
+  <name>EMPTYPE</name>
+  <type>CHOICE</type>
+  <mask></mask>
+  <length>1</length>
+  <row>11</row>
+  <col>27</col>
+  <defaultValue></defaultValue>
+  <AllowedChoices>YN</AllowedChoices>
+  <ChoiceDescriptions>Yes, No</ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <lineno>1560</varName >
+  <varName>EG4$(67,1)</varName >
+  <primaryKey>N</primaryKey>
+  <name>EXOVT</name>
+  <type>CHOICE</type>
+  <mask></mask>
+  <length>3</length>
+  <row>12</row>
+  <col>27</col>
+  <defaultValue></defaultValue>
+  <AllowedChoices>YN</AllowedChoices>
+  <ChoiceDescriptions>Yes, No</ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <lineno>1610</varName >
+  <varName>EG5$(5,1)</varName >
+  <primaryKey>N</primaryKey>
+  <name>ADJMIN</name>
+  <type>CHOICE</type>
+  <mask></mask>
+  <length>3</length>
+  <row>13</row>
+  <col>27</col>
+  <defaultValue></defaultValue>
+  <AllowedChoices>YN</AllowedChoices>
+  <ChoiceDescriptions>Yes, No</ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <lineno>1660</varName >
+  <varName>1660</varName >
+  <primaryKey>N</primaryKey>
+  <name>1660</name>
+  <type>NUMERIC</type>
+  <mask>9</mask>
+  <length>1</length>
+  <row>14</row>
+  <col>27</col>
+  <defaultValue></defaultValue>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <lineno>1710</varName >
+  <varName>STATUS$</varName >
+  <primaryKey>N</primaryKey>
+  <name>STATUS$</name>
+  <type>CHOICE</type>
+  <mask></mask>
+  <length>9</length>
+  <row>15</row>
+  <col>27</col>
+  <defaultValue></defaultValue>
+  <AllowedChoices>YN</AllowedChoices>
+  <ChoiceDescriptions>Yes, No</ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <lineno>1760</varName >
+  <varName>1760</varName >
+  <primaryKey>N</primaryKey>
+  <name>1760</name>
+  <type>NUMERIC</type>
+  <mask>99</mask>
+  <length>2</length>
+  <row>4</row>
+  <col>75</col>
+  <defaultValue></defaultValue>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <lineno>1810</varName >
+  <varName>1810</varName >
+  <primaryKey>N</primaryKey>
+  <name>1810</name>
+  <type>NUMERIC</type>
+  <mask>99999999.99</mask>
+  <length>11</length>
+  <row>5</row>
+  <col>66</col>
+  <defaultValue></defaultValue>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <lineno>1870</varName >
+  <varName>1870</varName >
+  <primaryKey>N</primaryKey>
+  <name>1870</name>
+  <type>NUMERIC</type>
+  <mask>999999.99</mask>
+  <length>9</length>
+  <row>6</row>
+  <col>68</col>
+  <defaultValue></defaultValue>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <lineno>1930</varName >
+  <varName>1930</varName >
+  <primaryKey>N</primaryKey>
+  <name>1930</name>
+  <type>NUMERIC</type>
+  <mask>99999999.99</mask>
+  <length>11</length>
+  <row>7</row>
+  <col>66</col>
+  <defaultValue></defaultValue>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <lineno>2020</varName >
+  <varName>EG4$(65,2)</varName >
+  <primaryKey>N</primaryKey>
+  <name>SACCR</name>
+  <type>STRING</type>
+  <mask></mask>
+  <length>2</length>
+  <row>10</row>
+  <col>75</col>
+  <defaultValue></defaultValue>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <lineno>2110</varName >
+  <varName>EG4$(63,2)</varName >
+  <primaryKey>N</primaryKey>
+  <name>VACCR</name>
+  <type>STRING</type>
+  <mask></mask>
+  <length>2</length>
+  <row>11</row>
+  <col>75</col>
+  <defaultValue></defaultValue>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <lineno>2530</varName >
+  <varName>EG11$</varName >
+  <primaryKey>N</primaryKey>
+  <name>SKILL</name>
+  <type>STRING</type>
+  <mask></mask>
+  <length>2</length>
+  <row>18</row>
+  <col>27</col>
+  <defaultValue></defaultValue>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <lineno>2610</varName >
+  <varName>EG5$(13,4)</varName >
+  <primaryKey>N</primaryKey>
+  <name>UNCD</name>
+  <type>STRING</type>
+  <mask></mask>
+  <length>4</length>
+  <row>19</row>
+  <col>27</col>
+  <defaultValue></defaultValue>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <lineno>2800</varName >
+  <varName>EG5$(17,4)</varName >
+  <primaryKey>N</primaryKey>
+  <name>WCCODE</name>
+  <type>STRING</type>
+  <mask></mask>
+  <length>4</length>
+  <row>20</row>
+  <col>27</col>
+  <defaultValue></defaultValue>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+</dataDictionary>
+</ScreenConfiguration>

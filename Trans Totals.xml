@@ -1,0 +1,352 @@
+<ScreenConfiguration>
+<ScreenSettings>
+<Type>DataEntry</Type>
+<Title>Trans Totals</Title>
+<Col>0</Col>
+<Row>0</Row>
+<Width>80</Width>
+<Height>24</Height>
+<Box>Y</Box>
+<NextType></NextType>
+<NextClass></NextClass>
+<hasControl>N</hasControl>
+<controlClass></controlClass>
+<controlmaxRows></controlmaxRows>
+<Boxes>
+<Box>
+  <Col>0</Col>
+  <Row>0</Row>
+  <Cols>77</Cols>
+  <Rows>18</Rows>
+</Box>
+<Boxes>
+</ScreenSettings>
+<dataDictionary>
+<DataEntryFields>
+<field>
+  <primaryKey>N</primaryKey>
+  <name>Subtotal</name>
+  <type>STRING</type>
+  <mask></mask>
+  <length>5</length>
+  <row>2</row>
+  <col>9</col>
+  <defaultValue></defaultValue>
+  <label_column>0</label_column>
+  <label_text>Subtotal</label_text>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <primaryKey>N</primaryKey>
+  <name>TaxLoc1</name>
+  <type>STRING</type>
+  <mask></mask>
+  <length>5</length>
+  <row>3</row>
+  <col>40</col>
+  <defaultValue></defaultValue>
+  <label_column>30</label_column>
+  <label_text>Tax Location1</label_text>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <primaryKey>N</primaryKey>
+  <name>Freight</name>
+  <type>STRING</type>
+  <mask></mask>
+  <length>5</length>
+  <row>4</row>
+  <col>11</col>
+  <defaultValue></defaultValue>
+  <label_column>0</label_column>
+  <label_text>Freight</label_text>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <primaryKey>N</primaryKey>
+  <name>TaxClass1</name>
+  <type>STRING</type>
+  <mask></mask>
+  <length>5</length>
+  <row>5</row>
+  <col>40</col>
+  <defaultValue></defaultValue>
+  <label_column>30</label_column>
+  <label_text>Tax Class</label_text>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <primaryKey>N</primaryKey>
+  <name>Misc</name>
+  <type>STRING</type>
+  <mask></mask>
+  <length>6</length>
+  <row>4</row>
+  <col>20</col>
+  <defaultValue></defaultValue>
+  <label_column>0</label_column>
+  <label_text>Miscellaneous Chgs</label_text>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <primaryKey>N</primaryKey>
+  <name>TaxClass2</name>
+  <type>STRING</type>
+  <mask></mask>
+  <length>5</length>
+  <row>5</row>
+  <col>40</col>
+  <defaultValue></defaultValue>
+  <label_column>30</label_column>
+  <label_text>Tax Class</label_text>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <primaryKey>N</primaryKey>
+  <name>SalesTax</name>
+  <type>STRING</type>
+  <mask></mask>
+  <length>5</length>
+  <row>6</row>
+  <col>11</col>
+  <defaultValue></defaultValue>
+  <label_column>0</label_column>
+  <label_text>Sales Tax</label_text>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <primaryKey>N</primaryKey>
+  <name>InvoiceTotal</name>
+  <type>STRING</type>
+  <mask></mask>
+  <length>5</length>
+  <row>7</row>
+  <col>11</col>
+  <defaultValue></defaultValue>
+  <label_column>0</label_column>
+  <label_text>Invoice Total</label_text>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <primaryKey>N</primaryKey>
+  <name>Payment1</name>
+  <type>STRING</type>
+  <mask></mask>
+  <length>5</length>
+  <row>8</row>
+  <col>11</col>
+  <defaultValue></defaultValue>
+  <label_column>0</label_column>
+  <label_text>Payment 1</label_text>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <primaryKey>N</primaryKey>
+  <name>Method</name>
+  <type>STRING</type>
+  <mask></mask>
+  <length>5</length>
+  <row>8</row>
+  <col>11</col>
+  <defaultValue></defaultValue>
+  <label_column>0</label_column>
+  <label_text>Method1</label_text>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <primaryKey>N</primaryKey>
+  <name>Payment2</name>
+  <type>STRING</type>
+  <mask></mask>
+  <length>5</length>
+  <row>9</row>
+  <col>40</col>
+  <defaultValue></defaultValue>
+  <label_column>30</label_column>
+  <label_text>Payment 2</label_text>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <primaryKey>N</primaryKey>
+  <name>Method2</name>
+  <type>STRING</type>
+  <mask></mask>
+  <length>5</length>
+  <row>9</row>
+  <col>40</col>
+  <defaultValue></defaultValue>
+  <label_column>30</label_column>
+  <label_text>Method</label_text>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <primaryKey>N</primaryKey>
+  <name>NetDue</name>
+  <type>STRING</type>
+  <mask></mask>
+  <length>5</length>
+  <row>10</row>
+  <col>11</col>
+  <defaultValue></defaultValue>
+  <label_column>0</label_column>
+  <label_text>Net Due</label_text>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <primaryKey>N</primaryKey>
+  <name>TaxAmount</name>
+  <type>STRING</type>
+  <mask></mask>
+  <length>5</length>
+  <row>11</row>
+  <col>52</col>
+  <defaultValue></defaultValue>
+  <label_column>41</label_column>
+  <label_text>Tax Amount</label_text>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <primaryKey>N</primaryKey>
+  <name>TaxLoc2</name>
+  <type>STRING</type>
+  <mask></mask>
+  <length>5</length>
+  <row>12</row>
+  <col>40</col>
+  <defaultValue></defaultValue>
+  <label_column>30</label_column>
+  <label_text>Tax Loc 2</label_text>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <primaryKey>N</primaryKey>
+  <name>Class</name>
+  <type>STRING</type>
+  <mask></mask>
+  <length>5</length>
+  <row>13</row>
+  <col>68</col>
+  <defaultValue></defaultValue>
+  <label_column>62</label_column>
+  <label_text>Class</label_text>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <primaryKey>N</primaryKey>
+  <name>TaxAdj</name>
+  <type>STRING</type>
+  <mask></mask>
+  <length>5</length>
+  <row>14</row>
+  <col>33</col>
+  <defaultValue></defaultValue>
+  <label_column>18</label_column>
+  <label_text>Tax Adjustment</label_text>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <primaryKey>N</primaryKey>
+  <name>SalesTax</name>
+  <type>STRING</type>
+  <mask></mask>
+  <length>5</length>
+  <row>15</row>
+  <col>28</col>
+  <defaultValue></defaultValue>
+  <label_column>18</label_column>
+  <label_text>Sales Tax</label_text>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+</DataEntryFields>
+</dataDictionary>
+</ScreenConfiguration>

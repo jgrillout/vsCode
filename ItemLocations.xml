@@ -1,0 +1,382 @@
+<ScreenConfiguration>
+<ScreenSettings>
+<Type>DataEntry</Type>
+<Title>ItemLocations</Title>
+<Col>0</Col>
+<Row>0</Row>
+<Width>80</Width>
+<Height>24</Height>
+<Box>Y</Box>
+<NextType></NextType>
+<NextClass></NextClass>
+<hasControl>N</hasControl>
+<controlClass></controlClass>
+<controlmaxRows></controlmaxRows>
+<Boxes>
+<Box>
+  <Col>0</Col>
+  <Row>0</Row>
+  <Cols>80</Cols>
+  <Rows>24</Rows>
+</Box>
+<Box>
+  <Col>1</Col>
+  <Row>21</Row>
+  <Cols>78</Cols>
+  <Rows>0</Rows>
+</Box>
+</Boxes>
+<Labels>
+<Label>
+  <Col>2</Col>
+  <Row>2</Row>
+  <labelText>Location ID</labelText>
+</Label>
+<Label>
+  <Col>2</Col>
+  <Row>4</Row>
+  <labelText>Name</labelText>
+</Label>
+<Label>
+  <Col>2</Col>
+  <Row>5</Row>
+  <labelText>Address 1</labelText>
+</Label>
+<Label>
+  <Col>2</Col>
+  <Row>6</Row>
+  <labelText>Address 2</labelText>
+</Label>
+<Label>
+  <Col>2</Col>
+  <Row>7</Row>
+  <labelText>Address 3</labelText>
+</Label>
+<Label>
+  <Col>2</Col>
+  <Row>8</Row>
+  <labelText>City/State</labelText>
+</Label>
+<Label>
+  <Col>2</Col>
+  <Row>9</Row>
+  <labelText>Zip/Country</labelText>
+</Label>
+<Label>
+  <Col>2</Col>
+  <Row>10</Row>
+  <labelText>Contact</labelText>
+</Label>
+<Label>
+  <Col>2</Col>
+  <Row>11</Row>
+  <labelText>Picking Slip Delivery</labelText>
+</Label>
+<Label>
+  <Col>2</Col>
+  <Row>13</Row>
+  <labelText>Phone Number</labelText>
+</Label>
+<Label>
+  <Col>2</Col>
+  <Row>14</Row>
+  <labelText>Fax Number</labelText>
+</Label>
+<Label>
+  <Col>2</Col>
+  <Row>15</Row>
+  <labelText>E-Mail</labelText>
+</Label>
+<Label>
+  <Col>2</Col>
+  <Row>16</Row>
+  <labelText>Printer</labelText>
+</Label>
+<Label>
+  <Col>2</Col>
+  <Row>18</Row>
+  <labelText>Carrying Cost Pct</labelText>
+</Label>
+<Label>
+  <Col>2</Col>
+  <Row>19</Row>
+  <labelText>Ordering Cost Amt</labelText>
+</Label>
+</Labels>
+</ScreenSettings>
+<dataDictionary>
+<DataEntryFields>
+<field>
+  <varName>INLO</varName >
+  <primaryKey>N</primaryKey>
+  <name>INLO</name>
+  <type>STRING</type>
+  <mask></mask>
+  <length>6</length>
+  <row>2</row>
+  <col>17</col>
+  <defaultValue></defaultValue>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <varName>1360</varName >
+  <primaryKey>N</primaryKey>
+  <name>1360</name>
+  <type>STRING</type>
+  <mask></mask>
+  <length>6</length>
+  <row>2</row>
+  <col>36</col>
+  <defaultValue></defaultValue>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <varName>INLO</varName >
+  <primaryKey>N</primaryKey>
+  <name>INLO</name>
+  <type>STRING</type>
+  <mask></mask>
+  <length>30</length>
+  <row>4</row>
+  <col>17</col>
+  <defaultValue></defaultValue>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <varName>INLO</varName >
+  <primaryKey>N</primaryKey>
+  <name>INLO</name>
+  <type>STRING</type>
+  <mask></mask>
+  <length>30</length>
+  <row>5</row>
+  <col>17</col>
+  <defaultValue></defaultValue>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <varName>INLO</varName >
+  <primaryKey>N</primaryKey>
+  <name>INLO</name>
+  <type>STRING</type>
+  <mask></mask>
+  <length>30</length>
+  <row>6</row>
+  <col>17</col>
+  <defaultValue></defaultValue>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <varName>INLO</varName >
+  <primaryKey>N</primaryKey>
+  <name>INLO</name>
+  <type>STRING</type>
+  <mask></mask>
+  <length>30</length>
+  <row>7</row>
+  <col>17</col>
+  <defaultValue></defaultValue>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <varName>INLO</varName >
+  <primaryKey>N</primaryKey>
+  <name>INLO</name>
+  <type>STRING</type>
+  <mask></mask>
+  <length>15</length>
+  <row>8</row>
+  <col>17</col>
+  <defaultValue></defaultValue>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <varName>INLO</varName >
+  <primaryKey>N</primaryKey>
+  <name>INLO</name>
+  <type>STRING</type>
+  <mask></mask>
+  <length>3</length>
+  <row>8</row>
+  <col>33</col>
+  <defaultValue></defaultValue>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <varName>INLO</varName >
+  <primaryKey>N</primaryKey>
+  <name>INLO</name>
+  <type>STRING</type>
+  <mask></mask>
+  <length>12</length>
+  <row>9</row>
+  <col>17</col>
+  <defaultValue></defaultValue>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <varName>INLO</varName >
+  <primaryKey>N</primaryKey>
+  <name>INLO</name>
+  <type>STRING</type>
+  <mask></mask>
+  <length>2</length>
+  <row>9</row>
+  <col>30</col>
+  <defaultValue></defaultValue>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <varName>INLO</varName >
+  <primaryKey>N</primaryKey>
+  <name>INLO</name>
+  <type>STRING</type>
+  <mask></mask>
+  <length>30</length>
+  <row>10</row>
+  <col>17</col>
+  <defaultValue></defaultValue>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <varName>INLO</varName >
+  <primaryKey>N</primaryKey>
+  <name>INLO</name>
+  <type>MASKED</type>
+  <mask>(999)999-9999</mask>
+  <length>20</length>
+  <row>13</row>
+  <col>17</col>
+  <defaultValue></defaultValue>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <varName>INLO</varName >
+  <primaryKey>N</primaryKey>
+  <name>INLO</name>
+  <type>MASKED</type>
+  <mask>(999)999-9999</mask>
+  <length>20</length>
+  <row>14</row>
+  <col>17</col>
+  <defaultValue></defaultValue>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <varName>FNFROMTYP$</varName >
+  <primaryKey>N</primaryKey>
+  <name>FNFROMTYP$</name>
+  <type>CHOICE</type>
+  <mask></mask>
+  <length>6</length>
+  <row>11</row>
+  <col>26</col>
+  <defaultValue></defaultValue>
+  <AllowedChoices>YN</AllowedChoices>
+  <ChoiceDescriptions>Yes, No</ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <varName>INLO</varName >
+  <primaryKey>N</primaryKey>
+  <name>INLO</name>
+  <type>STRING</type>
+  <mask></mask>
+  <length>60</length>
+  <row>15</row>
+  <col>17</col>
+  <defaultValue></defaultValue>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <varName>INLO</varName >
+  <primaryKey>N</primaryKey>
+  <name>INLO</name>
+  <type>STRING</type>
+  <mask></mask>
+  <length>60</length>
+  <row>16</row>
+  <col>17</col>
+  <defaultValue></defaultValue>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+</dataDictionary>
+</ScreenConfiguration>

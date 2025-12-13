@@ -1,0 +1,182 @@
+<ScreenConfiguration>
+<ScreenSettings>
+<Type>DataEntryScroll</Type>
+<Title>Customers</Title>
+<Width>80</Width>
+<Height>24</Height>
+<Box>Y</Box>
+<ScrollMaxRows>15</ScrollMaxRows>
+<ScrollWinHeight>17</ScrollWinHeight>
+<ScrollWinWidth>76</ScrollWinWidth>
+<ScrollStartY>3</ScrollStartY>
+<ScrollStartX>2</ScrollStartX>
+<ScrollBox>Y</ScrollBox>
+<Boxes>
+<Box>
+  <Col>0</Col>
+  <Row>0</Row>
+  <Cols>80</Cols>
+  <Rows>24</Rows>
+</Box>
+<Box>
+  <Col>1</Col>
+  <Row>2</Row>
+  <Cols>78</Cols>
+  <Rows>0</Rows>
+</Box>
+<Box>
+  <Col>1</Col>
+  <Row>14</Row>
+  <Cols>78</Cols>
+  <Rows>0</Rows>
+</Box>
+<Box>
+  <Col>45</Col>
+  <Row>3</Row>
+  <Cols>0</Cols>
+  <Rows>11</Rows>
+</Box>
+<Box>
+  <Col>1</Col>
+  <Row>18</Row>
+  <Cols>78</Cols>
+  <Rows>0</Rows>
+</Box>
+<Box>
+  <Col>1</Col>
+  <Row>21</Row>
+  <Cols>78</Cols>
+  <Rows>0</Rows>
+</Box>
+</Boxes>
+<Labels>
+<Label>
+  <Col>2</Col>
+  <Row>1</Row>
+  <labelText>Vendor ID</labelText>
+</Label>
+<Label>
+  <Col>22</Col>
+  <Row>1</Row>
+  <labelText>Status</labelText>
+</Label>
+<Label>
+  <Col>10</Col>
+  <Row>2</Row>
+  <labelText> Vendor Address Information </labelText>
+</Label>
+<Label>
+  <Col>52</Col>
+  <Row>2</Row>
+  <labelText> Pay-To Information </labelText>
+</Label>
+<Label>
+  <Col>2</Col>
+  <Row>3</Row>
+  <labelText>Name</labelText>
+</Label>
+<Label>
+  <Col>2</Col>
+  <Row>4</Row>
+  <labelText>Address 1</labelText>
+</Label>
+<Label>
+  <Col>2</Col>
+  <Row>5</Row>
+  <labelText>Address 2</labelText>
+</Label>
+<Label>
+  <Col>2</Col>
+  <Row>6</Row>
+  <labelText>Address 3</labelText>
+</Label>
+<Label>
+  <Col>2</Col>
+  <Row>7</Row>
+  <labelText>City/State</labelText>
+</Label>
+<Label>
+  <Col>2</Col>
+  <Row>8</Row>
+  <labelText>Zip/Country</labelText>
+</Label>
+<Label>
+  <Col>2</Col>
+  <Row>9</Row>
+  <labelText>Phone</labelText>
+</Label>
+<Label>
+  <Col>2</Col>
+  <Row>10</Row>
+  <labelText>Fax</labelText>
+</Label>
+<Label>
+  <Col>2</Col>
+  <Row>11</Row>
+  <labelText>Contact</labelText>
+</Label>
+<Label>
+  <Col>2</Col>
+  <Row>12</Row>
+  <labelText>Our Account</labelText>
+</Label>
+<Label>
+  <Col>47</Col>
+  <Row>12</Row>
+  <labelText>Attn:</labelText>
+</Label>
+<Label>
+  <Col>2</Col>
+  <Row>14</Row>
+  <labelText> Internet Information </labelText>
+</Label>
+<Label>
+  <Col>2</Col>
+  <Row>16</Row>
+  <labelText>Web Site</labelText>
+</Label>
+<Label>
+  <Col>2</Col>
+  <Row>18</Row>
+  <labelText> Balance Information </labelText>
+</Label>
+<Label>
+  <Col>2</Col>
+  <Row>19</Row>
+  <labelText>Payment Method</labelText>
+</Label>
+<Label>
+  <Col>2</Col>
+  <Row>20</Row>
+  <labelText>Amount Prepaid</labelText>
+</Label>
+</Labels>
+<DisplayFields>
+<field>
+  <varName>VE0$</varName>
+  <name>VEND</name>
+  <type>STRING</type>
+  <mask></mask>
+  <length>6</length>
+  <row>1</row>
+  <col>14</col>  
+  <OrderBy>VEND</OrderBy>
+</field>
+<field>
+  <varName>VE1$</varName>
+  <name>VNAME</name>
+  <type>STRING</type>
+  <mask></mask>
+  <length>30</length>
+  <row>3</row>
+  <col>14</col>
+  <OrderBy></OrderBy>
+</field>
+</DisplayFields>
+</ScreenSettings>
+</ScreenConfiguration>
+<Struct name="PassParam">    
+	<Field fieldName="ALLOWADD" Parm="AllowAdd"  value="Y"/>
+    <Field fieldName="ALLOWEDT" Parm="AllowEdit"  value="Y"/>
+	<Field fieldName="ALLOWDEL" Parm="AllowDelete" value="Y"/>	
+</Struct>

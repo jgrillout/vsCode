@@ -1,0 +1,171 @@
+<ScreenConfiguration>
+<ScreenSettings>
+<Type>DataEntry</Type>
+<Title>ARENTINI</Title>
+<Box>Y</Box>
+<Width>80</Width>
+<Height>24</Height>
+<Boxes>
+<Box>
+  <Col>0</Col>
+  <Row>0</Row>
+  <Cols>79</Cols>
+  <Rows>24</Rows>
+</Box>
+<Box>
+  <Col>1</Col>
+  <Row>3</Row>
+  <Cols>77</Cols>
+  <Rows>0</Rows>
+</Box>
+<Box>
+  <Col>1</Col>
+  <Row>18</Row>
+  <Cols>77</Cols>
+  <Rows>0</Rows>
+</Box>
+<Box>
+  <Col>1</Col>
+  <Row>21</Row>
+  <Cols>77</Cols>
+  <Rows>0</Rows>
+</Box>
+<Box>
+  <Col>61</Col>
+  <Row>19</Row>
+  <Cols>0</Cols>
+  <Rows>2</Rows>
+</Box>
+</Boxes>
+<Labels>
+<Label>
+  <Col>0</Col>
+  <Row>0</Row>
+  <labelText>* * *   Display Prompts</labelText>
+</Label>
+<Label>
+  <Col>0</Col>
+  <Row>0</Row>
+  <labelText>FTXT</labelText>
+</Label>
+<Label>
+  <Col>3</Col>
+  <Row>1</Row>
+  <labelText></labelText>
+</Label>
+<Label>
+  <Col>0</Col>
+  <Row>0</Row>
+  <labelText>Sold to:</labelText>
+</Label>
+<Label>
+  <Col>50</Col>
+  <Row>1</Row>
+  <labelText></labelText>
+</Label>
+<Label>
+  <Col>0</Col>
+  <Row>0</Row>
+  <labelText>Loc ID</labelText>
+</Label>
+<Label>
+  <Col>0</Col>
+  <Row>0</Row>
+  <labelText>1</labelText>
+</Label>
+<Label>
+  <Col>61</Col>
+  <Row>1</Row>
+  <labelText></labelText>
+</Label>
+<Label>
+  <Col>0</Col>
+  <Row>0</Row>
+  <labelText>Batch ID</labelText>
+</Label>
+<Label>
+  <Col>3</Col>
+  <Row>2</Row>
+  <labelText></labelText>
+</Label>
+<Label>
+  <Col>0</Col>
+  <Row>0</Row>
+  <labelText>Ship to:</labelText>
+</Label>
+<Label>
+  <Col>61</Col>
+  <Row>2</Row>
+  <labelText></labelText>
+</Label>
+<Label>
+  <Col>0</Col>
+  <Row>0</Row>
+  <labelText>Trans No</labelText>
+</Label>
+<Label>
+  <Col>3</Col>
+  <Row>4</Row>
+  <labelText></labelText>
+</Label>
+<Label>
+  <Col>0</Col>
+  <Row>0</Row>
+  <labelText>Item/Job ID</labelText>
+</Label>
+<Label>
+  <Col>30</Col>
+  <Row>4</Row>
+  <labelText></labelText>
+</Label>
+<Label>
+  <Col>6</Col>
+  <Row>5</Row>
+  <labelText></labelText>
+</Label>
+<Label>
+  <Col>0</Col>
+  <Row>0</Row>
+  <labelText>Description</labelText>
+</Label>
+<Label>
+  <Col>30</Col>
+  <Row>5</Row>
+  <labelText></labelText>
+</Label>
+<Label>
+  <Col>0</Col>
+  <Row>0</Row>
+  <labelText>Qty Shipped</labelText>
+</Label>
+<Label>
+  <Col>59</Col>
+  <Row>17</Row>
+  <labelText></labelText>
+</Label>
+<Label>
+  <Col>0</Col>
+  <Row>0</Row>
+  <labelText>Entry (    of    )</labelText>
+</Label>
+<Label>
+  <Col>6</Col>
+  <Row>19</Row>
+  <labelText></labelText>
+</Label>
+<Label>
+  <Col>0</Col>
+  <Row>0</Row>
+  <labelText> Subtotal   Freight+Misc      Sales Tax     Prepayment</labelText>
+</Label>
+<Label>
+  <Col>0</Col>
+  <Row>0</Row>
+  <labelText>Net Due</labelText>
+</Label>
+</Labels>
+</ScreenSettings>
+<dataDictionary>
+<DataEntryFields>
+</dataDictionary>
+</ScreenConfiguration>

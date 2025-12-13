@@ -1,0 +1,86 @@
+<ScreenConfiguration>
+    <ScreenSettings>
+		<Type>Menu</Type>
+		<Title>Inventory Menu</Title>
+		<Box>Y</Box>
+        <Width>40</Width>
+        <Height>13</Height>
+    </ScreenSettings>
+	<menuChoices>   
+	<selection>
+		<Choice>1</Choice>
+		<name>MenuOption1</name>
+		<type>LABEL</type>
+        <row>2</row>
+        <col>2</col>  
+		<labelCol>2</labelCol> 
+        <labelText>1. Item Locations</labelText>    
+		<isEvent>Y</isEvent>
+		<nextRunType>DataEntry</nextRunType>		
+		<nextRunClass>ItemLocations</nextRunClass>
+		<inputType></inputType>
+		<inputMask></inputMask>
+		<inputLen></inputLen>
+        <inputRow></inputRow>
+        <inputCol></inputCol>  
+		<inputlabelCol></inputlabelCol> 
+        <inputlabelText></inputlabelText>  
+    </selection>
+	<selection>
+		<Choice>2</Choice>
+		<name>MenuOption1</name>
+		<type>LABEL</type>
+        <row>3</row>
+        <col>3</col>  
+		<labelCol>2</labelCol> 
+        <labelText>2. Item General Information</labelText>    
+		<isEvent>Y</isEvent>
+		<nextRunType>DataEntry</nextRunType>		
+		<nextRunClass>ItemGeneralInformation</nextRunClass>
+		<inputType></inputType>
+		<inputMask></inputMask>
+		<inputLen></inputLen>
+        <inputRow></inputRow>
+        <inputCol></inputCol>  
+		<inputlabelCol></inputlabelCol> 
+        <inputlabelText></inputlabelText>  
+    </selection>
+	<selection>
+		 <Choice>10</Choice>
+		<name>MenuOption10</name>
+		<type>LABEL</type>
+        <row>10</row>
+        <col>2</col>  
+		<labelCol>2</labelCol> 
+        <labelText>10. Main Menu</labelText>    
+		<isEvent>Y</isEvent>		
+		<nextRunType>Menu</nextRunType>		
+		<nextRunClass>MainMenuScreen</nextRunClass>
+		<inputType></inputType>
+		<inputMask></inputMask>
+		<inputLen></inputLen>
+        <inputRow></inputRow>
+        <inputCol></inputCol>  
+		<inputlabelCol></inputlabelCol> 
+        <inputlabelText></inputlabelText>  
+	</selection>
+	<selection>
+		<Choice>99</Choice>
+		<name>MenuInput</name>
+		<type>INPUT</type>
+        <row>0</row>
+        <col>0</col>  
+		<labelCol>0</labelCol> 
+        <labelText></labelText>    
+		<isEvent></isEvent>		
+		<nextRunType></nextRunType>
+		<nextRunClass></nextRunClass>
+		<inputType>NUMERIC</inputType>
+		<inputMask>99</inputMask>
+		<inputLen>2</inputLen>
+        <inputRow>10</inputRow>
+		<inputlabelCol>8</inputlabelCol> 
+        <inputlabelText>Choice:</inputlabelText>  
+	</selection>
+</menuChoices>
+</ScreenConfiguration>

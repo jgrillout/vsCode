@@ -1,0 +1,388 @@
+<ScreenConfiguration>
+<ScreenSettings>
+<Type>DataEntry</Type>
+<Title>ItemGeneralInformation</Title>
+<Col>0</Col>
+<Row>0</Row>
+<Width>80</Width>
+<Height>24</Height>
+<Box>Y</Box>
+<NextType></NextType>
+<NextClass></NextClass>
+<hasControl>N</hasControl>
+<controlRunClass></controlClass>
+<controlmaxRows></controlmaxRows>
+<Boxes>
+<Box>
+  <Col>0</Col>
+  <Row>0</Row>
+  <Cols>80</Cols>
+  <Rows>24</Rows>
+</Box>
+<Box>
+  <Col>1</Col>
+  <Row>21</Row>
+  <Cols>78</Cols>
+  <Rows>0</Rows>
+</Box>
+<Box>
+  <Col>1</Col>
+  <Row>3</Row>
+  <Cols>78</Cols>
+  <Rows>0</Rows>
+</Box>
+<Box>
+  <Col>1</Col>
+  <Row>10</Row>
+  <Cols>78</Cols>
+  <Rows>0</Rows>
+</Box>
+<Box>
+  <Col>38</Col>
+  <Row>4</Row>
+  <Cols>0</Cols>
+  <Rows>6</Rows>
+</Box>
+</Boxes>
+<Labels>
+<Label>
+  <Col>2</Col>
+  <Row>1</Row>
+  <labelText>Item ID</labelText>
+</Label>
+<Label>
+  <Col>2</Col>
+  <Row>2</Row>
+  <labelText>Description</labelText>
+</Label>
+<Label>
+  <Col>2</Col>
+  <Row>4</Row>
+  <labelText>Status</labelText>
+</Label>
+<Label>
+  <Col>41</Col>
+  <Row>4</Row>
+  <labelText>Sales Category</labelText>
+</Label>
+<Label>
+  <Col>2</Col>
+  <Row>5</Row>
+  <labelText>Item Type</labelText>
+</Label>
+<Label>
+  <Col>41</Col>
+  <Row>5</Row>
+  <labelText>Product Line</labelText>
+</Label>
+<Label>
+  <Col>2</Col>
+  <Row>6</Row>
+  <labelText>Kitted Item?</labelText>
+</Label>
+<Label>
+  <Col>41</Col>
+  <Row>6</Row>
+  <labelText>Item Price ID</labelText>
+</Label>
+<Label>
+  <Col>2</Col>
+  <Row>7</Row>
+  <labelText>Track Lots?</labelText>
+</Label>
+<Label>
+  <Col>41</Col>
+  <Row>7</Row>
+  <labelText>Tax Class</labelText>
+</Label>
+<Label>
+  <Col>2</Col>
+  <Row>8</Row>
+  <labelText>Auto Reorder?</labelText>
+</Label>
+<Label>
+  <Col>41</Col>
+  <Row>8</Row>
+  <labelText>Item Weight</labelText>
+</Label>
+<Label>
+  <Col>2</Col>
+  <Row>9</Row>
+  <labelText>Base UOM</labelText>
+</Label>
+<Label>
+  <Col>41</Col>
+  <Row>9</Row>
+  <labelText>Hazardous Code</labelText>
+</Label>
+<Label>
+  <Col>2</Col>
+  <Row>11</Row>
+  <labelText>Sorted Fields</labelText>
+</Label>
+<Label>
+  <Col>2</Col>
+  <Row>13</Row>
+  <labelText>Other Fields</labelText>
+</Label>
+</Labels>
+</ScreenSettings>
+<dataDictionary>
+<DataEntryFields>
+<field>
+  <varName>1130</varName >
+  <primaryKey>N</primaryKey>
+  <name>1130</name>
+  <type>CHOICE</type>
+  <mask></mask>
+  <length>12</length>
+  <row>4</row>
+  <col>17</col>
+  <defaultValue></defaultValue>
+  <AllowedChoices>YN</AllowedChoices>
+  <ChoiceDescriptions>Yes, No</ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <varName>ITYP</varName >
+  <primaryKey>N</primaryKey>
+  <name>ITYP</name>
+  <type>CHOICE</type>
+  <mask></mask>
+  <length>15</length>
+  <row>5</row>
+  <col>17</col>
+  <defaultValue></defaultValue>
+  <AllowedChoices>YN</AllowedChoices>
+  <ChoiceDescriptions>Yes, No</ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <varName>1500</varName >
+  <primaryKey>N</primaryKey>
+  <name>1500</name>
+  <type>CHOICE</type>
+  <mask></mask>
+  <length>3</length>
+  <row>6</row>
+  <col>17</col>
+  <defaultValue></defaultValue>
+  <AllowedChoices>YN</AllowedChoices>
+  <ChoiceDescriptions>Yes, No</ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <varName>1620</varName >
+  <primaryKey>N</primaryKey>
+  <name>1620</name>
+  <type>CHOICE</type>
+  <mask></mask>
+  <length>3</length>
+  <row>7</row>
+  <col>17</col>
+  <defaultValue></defaultValue>
+  <AllowedChoices>YN</AllowedChoices>
+  <ChoiceDescriptions>Yes, No</ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <varName>1730</varName >
+  <primaryKey>N</primaryKey>
+  <name>1730</name>
+  <type>CHOICE</type>
+  <mask></mask>
+  <length>3</length>
+  <row>8</row>
+  <col>17</col>
+  <defaultValue></defaultValue>
+  <AllowedChoices>YN</AllowedChoices>
+  <ChoiceDescriptions>Yes, No</ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <varName>BUOM</varName >
+  <primaryKey>N</primaryKey>
+  <name>BUOM</name>
+  <type>STRING</type>
+  <mask></mask>
+  <length>5</length>
+  <row>9</row>
+  <col>17</col>
+  <defaultValue></defaultValue>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <varName>SCAT</varName >
+  <primaryKey>N</primaryKey>
+  <name>SCAT</name>
+  <type>STRING</type>
+  <mask></mask>
+  <length>2</length>
+  <row>4</row>
+  <col>58</col>
+  <defaultValue></defaultValue>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <varName>PROD</varName >
+  <primaryKey>N</primaryKey>
+  <name>PROD</name>
+  <type>STRING</type>
+  <mask></mask>
+  <length>12</length>
+  <row>5</row>
+  <col>58</col>
+  <defaultValue></defaultValue>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <varName>PRID</varName >
+  <primaryKey>N</primaryKey>
+  <name>PRID</name>
+  <type>STRING</type>
+  <mask></mask>
+  <length>6</length>
+  <row>6</row>
+  <col>58</col>
+  <defaultValue></defaultValue>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <varName>2290</varName >
+  <primaryKey>N</primaryKey>
+  <name>2290</name>
+  <type>NUMERIC</type>
+  <mask>00</mask>
+  <length>2</length>
+  <row>7</row>
+  <col>58</col>
+  <defaultValue></defaultValue>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <varName>ITMWT</varName >
+  <primaryKey>N</primaryKey>
+  <name>ITMWT</name>
+  <type>NUMERIC</type>
+  <mask>99999999999999</mask>
+  <length>14</length>
+  <row>8</row>
+  <col>58</col>
+  <defaultValue></defaultValue>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <varName>HAZD</varName >
+  <primaryKey>N</primaryKey>
+  <name>HAZD</name>
+  <type>STRING</type>
+  <mask></mask>
+  <length>6</length>
+  <row>9</row>
+  <col>58</col>
+  <defaultValue></defaultValue>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <varName>UD01</varName >
+  <primaryKey>N</primaryKey>
+  <name>UD01</name>
+  <type>STRING</type>
+  <mask></mask>
+  <length>12</length>
+  <row>12</row>
+  <col>32</col>
+  <defaultValue></defaultValue>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <varName>UD02</varName >
+  <primaryKey>N</primaryKey>
+  <name>UD02</name>
+  <type>STRING</type>
+  <mask></mask>
+  <length>12</length>
+  <row>12</row>
+  <col>62</col>
+  <defaultValue></defaultValue>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <varName>2790</varName >
+  <primaryKey>N</primaryKey>
+  <name>2790</name>
+  <type>STRING</type>
+  <mask></mask>
+  <length>12</length>
+  <row>13</row>
+  <col>32</col>
+  <defaultValue></defaultValue>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+</dataDictionary>
+</ScreenConfiguration>

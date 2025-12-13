@@ -1,0 +1,92 @@
+<Screen>
+ <ScreenProperties>
+	<Type>Dialog</Type>
+	<Title>Transaction Type</Title>
+	<Col>40</Col>
+	<Row>5</Row>
+	<Width>30</Width>
+	<Height>8</Height>
+	<Border>Y</Border>
+	<NextType></NextType>
+	<NextClass></NextClass>
+	<exitRunType>Menu</exitRunType>		
+	<exitRunClass>ARMenuScreen</exitRunClass>
+</ScreenProperties>
+	<DialogChoices>   
+	<selection>
+		<Choice>1</Choice>
+		<name>New Invoice</name>
+		<type>LABEL</type>
+        <row>2</row>
+        <col>2</col>  
+		<labelCol>2</labelCol> 
+        <labelText>1. New Invoice</labelText>    
+		<isEvent>N</isEvent>
+		<nextRunType>TransactionEntryHeader</nextRunType>		
+		<nextRunClass>ARTransHeaderScreen</nextRunClass>
+		<inputType></inputType>
+		<inputMask></inputMask>
+		<inputLen></inputLen>
+        <inputRow></inputRow>
+        <inputCol></inputCol>  
+		<inputlabelCol></inputlabelCol> 
+        <inputlabelText></inputlabelText>  
+    </selection>
+	<selection>
+		<Choice>2</Choice>
+		<name>New Credit</name>
+		<type>LABEL</type>
+        <row>3</row>
+        <col>3</col>  
+		<labelCol>2</labelCol> 
+        <labelText>2. New Credit</labelText>    
+		<isEvent>N</isEvent>
+		<nextRunType>TransactionEntryHeader</nextRunType>		
+		<nextRunClass>ARTransHeaderScreen</nextRunClass>
+		<inputType></inputType>
+		<inputMask></inputMask>
+		<inputLen></inputLen>
+        <inputRow></inputRow>
+        <inputCol></inputCol>  
+		<inputlabelCol></inputlabelCol> 
+        <inputlabelText></inputlabelText>  
+    </selection>
+	<selection>
+		 <Choice>3</Choice>
+		<name>Edit</name>
+		<type>LABEL</type>
+        <row>4</row>
+        <col>4</col>  
+		<labelCol>2</labelCol> 
+        <labelText>3. Edit </labelText>    
+		<isEvent>N</isEvent>		
+		<nextRunType>TransactionEntryHeader</nextRunType>		
+		<nextRunClass>ARTransHeaderScreen</nextRunClass>
+		<inputType></inputType>
+		<inputMask></inputMask>
+		<inputLen></inputLen>
+        <inputRow></inputRow>
+        <inputCol></inputCol>  
+		<inputlabelCol></inputlabelCol> 
+        <inputlabelText></inputlabelText>  
+	</selection>
+	<selection>
+		<Choice>99</Choice>
+		<name>DialogInput</name>
+		<type>INPUT</type>
+        <row>0</row>
+        <col>0</col>  
+		<labelCol>0</labelCol> 
+        <labelText></labelText>    
+		<isEvent></isEvent>		
+		<nextRunType></nextRunType>
+		<nextRunClass></nextRunClass>
+		<inputType>NUMERIC</inputType>
+		<inputMask>9</inputMask>
+		<inputLen>2</inputLen>
+        <inputRow>5</inputRow>
+		<inputlabelCol>2</inputlabelCol> 
+        <inputlabelText></inputlabelText>  
+	</selection>
+</DialogChoices>
+</Screen>

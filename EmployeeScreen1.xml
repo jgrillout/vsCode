@@ -1,0 +1,850 @@
+<ScreenConfiguration>
+<ScreenSettings>
+<Type>DataEntry</Type>
+<Title>EmployeeScreen1</Title>
+<Col>0</Col>
+<Row>0</Row>
+<Width>80</Width>
+<Height>24</Height>
+<Box>Y</Box>
+<NextType></NextType>
+<NextClass></NextClass>
+<hasControl>N</hasControl>
+<controlRunClass></controlClass>
+<controlmaxRows></controlmaxRows>
+<Boxes>
+<Box>
+  <Col>0</Col>
+  <Row>0</Row>
+  <Cols>80</Cols>
+  <Rows>24</Rows>
+</Box>
+<Box>
+  <Col>1</Col>
+  <Row>21</Row>
+  <Cols>78</Cols>
+  <Rows>0</Rows>
+</Box>
+<Box>
+  <Col>1</Col>
+  <Row>15</Row>
+  <Cols>78</Cols>
+  <Rows>0</Rows>
+</Box>
+<Box>
+  <Col>43</Col>
+  <Row>1</Row>
+  <Cols>0</Cols>
+  <Rows>20</Rows>
+</Box>
+</Boxes>
+<Labels>
+<Label>
+  <Col>2</Col>
+  <Row>1</Row>
+  <labelText>Emp ID</labelText>
+</Label>
+<Label>
+  <Col>24</Col>
+  <Row>1</Row>
+  <labelText>Status</labelText>
+</Label>
+<Label>
+  <Col>45</Col>
+  <Row>1</Row>
+  <labelText>Job Title</labelText>
+</Label>
+<Label>
+  <Col>2</Col>
+  <Row>2</Row>
+  <labelText>Last Name</labelText>
+</Label>
+<Label>
+  <Col>45</Col>
+  <Row>2</Row>
+  <labelText>Work Phone</labelText>
+</Label>
+<Label>
+  <Col>2</Col>
+  <Row>3</Row>
+  <labelText>First Name</labelText>
+</Label>
+<Label>
+  <Col>30</Col>
+  <Row>3</Row>
+  <labelText>Middle In</labelText>
+</Label>
+<Label>
+  <Col>45</Col>
+  <Row>3</Row>
+  <labelText>Extension</labelText>
+</Label>
+<Label>
+  <Col>2</Col>
+  <Row>4</Row>
+  <labelText>W-2 Name</labelText>
+</Label>
+<Label>
+  <Col>45</Col>
+  <Row>4</Row>
+  <labelText>Adj Hire Date</labelText>
+</Label>
+<Label>
+  <Col>2</Col>
+  <Row>5</Row>
+  <labelText>Address 1</labelText>
+</Label>
+<Label>
+  <Col>45</Col>
+  <Row>5</Row>
+  <labelText>Start Date</labelText>
+</Label>
+<Label>
+  <Col>2</Col>
+  <Row>6</Row>
+  <labelText>Address 2</labelText>
+</Label>
+<Label>
+  <Col>45</Col>
+  <Row>6</Row>
+  <labelText>Birth Date</labelText>
+</Label>
+<Label>
+  <Col>2</Col>
+  <Row>7</Row>
+  <labelText>Address 3</labelText>
+</Label>
+<Label>
+  <Col>45</Col>
+  <Row>7</Row>
+  <labelText>Term Date</labelText>
+</Label>
+<Label>
+  <Col>2</Col>
+  <Row>8</Row>
+  <labelText>Res City</labelText>
+</Label>
+<Label>
+  <Col>30</Col>
+  <Row>8</Row>
+  <labelText>State</labelText>
+</Label>
+<Label>
+  <Col>45</Col>
+  <Row>8</Row>
+  <labelText>Last Review Date</labelText>
+</Label>
+<Label>
+  <Col>2</Col>
+  <Row>9</Row>
+  <labelText>Zip Code</labelText>
+</Label>
+<Label>
+  <Col>30</Col>
+  <Row>9</Row>
+  <labelText>Country</labelText>
+</Label>
+<Label>
+  <Col>45</Col>
+  <Row>9</Row>
+  <labelText>Next Review Date</labelText>
+</Label>
+<Label>
+  <Col>2</Col>
+  <Row>10</Row>
+  <labelText>Phone No</labelText>
+</Label>
+<Label>
+  <Col>45</Col>
+  <Row>10</Row>
+  <labelText>Last Check Date</labelText>
+</Label>
+<Label>
+  <Col>2</Col>
+  <Row>11</Row>
+  <labelText>SS No</labelText>
+</Label>
+<Label>
+  <Col>2</Col>
+  <Row>12</Row>
+  <labelText>Sex</labelText>
+</Label>
+<Label>
+  <Col>2</Col>
+  <Row>13</Row>
+  <labelText>EEO Class</labelText>
+</Label>
+<Label>
+  <Col>45</Col>
+  <Row>13</Row>
+  <labelText>DD</labelText>
+</Label>
+<Label>
+  <Col>2</Col>
+  <Row>14</Row>
+  <labelText>MENUAPP</labelText>
+</Label>
+<Label>
+  <Col>16</Col>
+  <Row>15</Row>
+  <labelText> W-2 Fields </labelText>
+</Label>
+<Label>
+  <Col>52</Col>
+  <Row>15</Row>
+  <labelText> Emergency Contact </labelText>
+</Label>
+<Label>
+  <Col>2</Col>
+  <Row>16</Row>
+  <labelText>Retirement Plan?</labelText>
+</Label>
+<Label>
+  <Col>45</Col>
+  <Row>16</Row>
+  <labelText>Name</labelText>
+</Label>
+<Label>
+  <Col>2</Col>
+  <Row>17</Row>
+  <labelText>Statutory Employee?</labelText>
+</Label>
+<Label>
+  <Col>45</Col>
+  <Row>17</Row>
+  <labelText>Work Phone</labelText>
+</Label>
+<Label>
+  <Col>2</Col>
+  <Row>18</Row>
+  <labelText>Third-party Sick Pay?</labelText>
+</Label>
+<Label>
+  <Col>2</Col>
+  <Row>19</Row>
+  <labelText>Hire Act?</labelText>
+</Label>
+<Label>
+  <Col>45</Col>
+  <Row>19</Row>
+  <labelText>Relation</labelText>
+</Label>
+</Labels>
+</ScreenSettings>
+<dataDictionary>
+<DataEntryFields>
+</field>
+<field>
+  <varName>FNSTATUS$</varName >
+  <primaryKey>N</primaryKey>
+  <name>FNSTATUS$</name>
+  <type>CHOICE</type>
+  <mask></mask>
+  <length>8</length>
+  <row>1</row>
+  <col>32</col>
+  <defaultValue></defaultValue>
+  <AllowedChoices>YN</AllowedChoices>
+  <ChoiceDescriptions>Yes, No</ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <varName>EG1$(1,20)</varName >
+  <primaryKey>N</primaryKey>
+  <name>EG1$(1,20)</name>
+  <type>STRING</type>
+  <mask></mask>
+  <length>20</length>
+  <row>2</row>
+  <col>13</col>
+  <defaultValue></defaultValue>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <varName>EG1$(21,15)</varName >
+  <primaryKey>N</primaryKey>
+  <name>EG1$(21,15)</name>
+  <type>STRING</type>
+  <mask></mask>
+  <length>15</length>
+  <row>3</row>
+  <col>13</col>
+  <defaultValue></defaultValue>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <varName>EG1$(36,1)</varName >
+  <primaryKey>N</primaryKey>
+  <name>EG1$(36,1)</name>
+  <type>STRING</type>
+  <mask></mask>
+  <length>1</length>
+  <row>3</row>
+  <col>41</col>
+  <defaultValue></defaultValue>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <varName>EG10$</varName >
+  <primaryKey>N</primaryKey>
+  <name>EG10$</name>
+  <type>STRING</type>
+  <mask></mask>
+  <length>27</length>
+  <row>4</row>
+  <col>13</col>
+  <defaultValue></defaultValue>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <varName>EG2$(1,30)</varName >
+  <primaryKey>N</primaryKey>
+  <name>EG2$(1,30)</name>
+  <type>STRING</type>
+  <mask></mask>
+  <length>30</length>
+  <row>5</row>
+  <col>13</col>
+  <defaultValue></defaultValue>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <varName>EG2$(31,30)</varName >
+  <primaryKey>N</primaryKey>
+  <name>EG2$(31,30)</name>
+  <type>STRING</type>
+  <mask></mask>
+  <length>30</length>
+  <row>6</row>
+  <col>13</col>
+  <defaultValue></defaultValue>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <varName>EG2$(61,30)</varName >
+  <primaryKey>N</primaryKey>
+  <name>EG2$(61,30)</name>
+  <type>STRING</type>
+  <mask></mask>
+  <length>30</length>
+  <row>7</row>
+  <col>13</col>
+  <defaultValue></defaultValue>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <varName>EG2$(91,15)</varName >
+  <primaryKey>N</primaryKey>
+  <name>EG2$(91,15)</name>
+  <type>STRING</type>
+  <mask></mask>
+  <length>15</length>
+  <row>8</row>
+  <col>13</col>
+  <defaultValue></defaultValue>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <varName>EG2$(106,3)</varName >
+  <primaryKey>N</primaryKey>
+  <name>EG2$(106,3)</name>
+  <type>STRING</type>
+  <mask></mask>
+  <length>3</length>
+  <row>8</row>
+  <col>38</col>
+  <defaultValue></defaultValue>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <varName>EG2$(109,12)</varName >
+  <primaryKey>N</primaryKey>
+  <name>EG2$(109,12)</name>
+  <type>STRING</type>
+  <mask></mask>
+  <length>12</length>
+  <row>9</row>
+  <col>13</col>
+  <defaultValue></defaultValue>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <varName>EG2$(121,2)</varName >
+  <primaryKey>N</primaryKey>
+  <name>EG2$(121,2)</name>
+  <type>STRING</type>
+  <mask></mask>
+  <length>2</length>
+  <row>9</row>
+  <col>38</col>
+  <defaultValue></defaultValue>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <varName>EG4$(12,20)</varName >
+  <primaryKey>N</primaryKey>
+  <name>EG4$(12,20)</name>
+  <type>MASKED</type>
+  <mask>(999)999-9999</mask>
+  <length>13</length>
+  <row>10</row>
+  <col>13</col>
+  <defaultValue></defaultValue>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <varName>PAEI.SSN$</varName >
+  <primaryKey>N</primaryKey>
+  <name>PAEI.SSN$</name>
+  <type>MASKED</type>
+  <mask>   -  -    </mask>
+  <length>3</length>
+  <row>11</row>
+  <col>13</col>
+  <defaultValue></defaultValue>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <varName>EG4$(57,1)</varName >
+  <primaryKey>N</primaryKey>
+  <name>EG4$(57,1)</name>
+  <type>CHOICE</type>
+  <mask></mask>
+  <length>1</length>
+  <row>12</row>
+  <col>13</col>
+  <defaultValue></defaultValue>
+  <AllowedChoices>YN</AllowedChoices>
+  <ChoiceDescriptions>Yes, No</ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <varName>1860</varName >
+  <primaryKey>N</primaryKey>
+  <name>1860</name>
+  <type>NUMERIC</type>
+  <mask>99999999.99</mask>
+  <length>11</length>
+  <row>13</row>
+  <col>13</col>
+  <defaultValue></defaultValue>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <varName>1910</varName >
+  <primaryKey>N</primaryKey>
+  <name>1910</name>
+  <type>CHOICE</type>
+  <mask></mask>
+  <length>15</length>
+  <row>14</row>
+  <col>20</col>
+  <defaultValue></defaultValue>
+  <AllowedChoices>YN</AllowedChoices>
+  <ChoiceDescriptions>Yes, No</ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <varName>YESNO$</varName >
+  <primaryKey>N</primaryKey>
+  <name>YESNO$</name>
+  <type>CHOICE</type>
+  <mask></mask>
+  <length>3</length>
+  <row>16</row>
+  <col>27</col>
+  <defaultValue></defaultValue>
+  <AllowedChoices>YN</AllowedChoices>
+  <ChoiceDescriptions>Yes, No</ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <varName>EG6$(7,20)</varName >
+  <primaryKey>N</primaryKey>
+  <name>EG6$(7,20)</name>
+  <type>STRING</type>
+  <mask></mask>
+  <length>20</length>
+  <row>1</row>
+  <col>57</col>
+  <defaultValue></defaultValue>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <varName>EG4$(32,20)</varName >
+  <primaryKey>N</primaryKey>
+  <name>EG4$(32,20)</name>
+  <type>MASKED</type>
+  <mask>(999)999-9999</mask>
+  <length>20</length>
+  <row>2</row>
+  <col>57</col>
+  <defaultValue></defaultValue>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <varName>EG4$(52,5)</varName >
+  <primaryKey>N</primaryKey>
+  <name>EG4$(52,5)</name>
+  <type>STRING</type>
+  <mask></mask>
+  <length>5</length>
+  <row>3</row>
+  <col>57</col>
+  <defaultValue></defaultValue>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <varName>EG6$(1,6)</varName >
+  <primaryKey>N</primaryKey>
+  <name>EG6$(1,6)</name>
+  <type>STRING</type>
+  <mask></mask>
+  <length>6</length>
+  <row>3</row>
+  <col>71</col>
+  <defaultValue></defaultValue>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <varName>FNA$(EG1[0])</varName >
+  <primaryKey>N</primaryKey>
+  <name>FNA$(EG1[0])</name>
+  <type>DATE</type>
+  <mask>99/99/9999</mask>
+  <length>6</length>
+  <row>4</row>
+  <col>64</col>
+  <defaultValue></defaultValue>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <varName>FNA$(EG1[1])</varName >
+  <primaryKey>N</primaryKey>
+  <name>FNA$(EG1[1])</name>
+  <type>DATE</type>
+  <mask>99/99/9999</mask>
+  <length>6</length>
+  <row>5</row>
+  <col>64</col>
+  <defaultValue></defaultValue>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <varName>FNA$(EG1[3])</varName >
+  <primaryKey>N</primaryKey>
+  <name>FNA$(EG1[3])</name>
+  <type>DATE</type>
+  <mask>99/99/9999</mask>
+  <length>6</length>
+  <row>6</row>
+  <col>64</col>
+  <defaultValue></defaultValue>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <varName>FNA$(EG1[2])</varName >
+  <primaryKey>N</primaryKey>
+  <name>FNA$(EG1[2])</name>
+  <type>DATE</type>
+  <mask>99/99/9999</mask>
+  <length>6</length>
+  <row>7</row>
+  <col>64</col>
+  <defaultValue></defaultValue>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <varName>FNA$(EG1[4])</varName >
+  <primaryKey>N</primaryKey>
+  <name>FNA$(EG1[4])</name>
+  <type>DATE</type>
+  <mask>99/99/9999</mask>
+  <length>6</length>
+  <row>8</row>
+  <col>64</col>
+  <defaultValue></defaultValue>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <varName>FNA$(EG1[5])</varName >
+  <primaryKey>N</primaryKey>
+  <name>FNA$(EG1[5])</name>
+  <type>DATE</type>
+  <mask>99/99/9999</mask>
+  <length>6</length>
+  <row>9</row>
+  <col>64</col>
+  <defaultValue></defaultValue>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <varName>FNA$(EG1[6])</varName >
+  <primaryKey>N</primaryKey>
+  <name>FNA$(EG1[6])</name>
+  <type>DATE</type>
+  <mask>99/99/9999</mask>
+  <length>6</length>
+  <row>10</row>
+  <col>64</col>
+  <defaultValue></defaultValue>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <varName>EG6$(27,20)</varName >
+  <primaryKey>N</primaryKey>
+  <name>EG6$(27,20)</name>
+  <type>STRING</type>
+  <mask></mask>
+  <length>20</length>
+  <row>11</row>
+  <col>58</col>
+  <defaultValue></defaultValue>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <varName>EG6$(47,20)</varName >
+  <primaryKey>N</primaryKey>
+  <name>EG6$(47,20)</name>
+  <type>STRING</type>
+  <mask></mask>
+  <length>20</length>
+  <row>12</row>
+  <col>58</col>
+  <defaultValue></defaultValue>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <varName>EG6$(67,20)</varName >
+  <primaryKey>N</primaryKey>
+  <name>EG6$(67,20)</name>
+  <type>STRING</type>
+  <mask></mask>
+  <length>20</length>
+  <row>13</row>
+  <col>58</col>
+  <defaultValue></defaultValue>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <varName>EG7$(1,20)</varName >
+  <primaryKey>N</primaryKey>
+  <name>EG7$(1,20)</name>
+  <type>STRING</type>
+  <mask></mask>
+  <length>20</length>
+  <row>16</row>
+  <col>57</col>
+  <defaultValue></defaultValue>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <varName>EG7$(21,20)</varName >
+  <primaryKey>N</primaryKey>
+  <name>EG7$(21,20)</name>
+  <type>MASKED</type>
+  <mask>(999)999-9999</mask>
+  <length>20</length>
+  <row>17</row>
+  <col>57</col>
+  <defaultValue></defaultValue>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <varName>EG7$(41,20)</varName >
+  <primaryKey>N</primaryKey>
+  <name>EG7$(41,20)</name>
+  <type>MASKED</type>
+  <mask>(999)999-9999</mask>
+  <length>20</length>
+  <row>18</row>
+  <col>57</col>
+  <defaultValue></defaultValue>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <varName>EG7$(61,18)</varName >
+  <primaryKey>N</primaryKey>
+  <name>EG7$(61,18)</name>
+  <type>STRING</type>
+  <mask></mask>
+  <length>18</length>
+  <row>19</row>
+  <col>57</col>
+  <defaultValue></defaultValue>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+</dataDictionary>
+</ScreenConfiguration>

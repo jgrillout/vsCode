@@ -1,0 +1,298 @@
+<ScreenConfiguration>
+<ScreenSettings>
+<Type>DataEntry</Type>
+<Title>Customers2</Title>
+<Col>0</Col>
+<Row>0</Row>
+<Width>80</Width>
+<Height>24</Height>
+<Box>Y</Box>
+<NextType></NextType>
+<NextClass></NextClass>
+<hasControl>N</hasControl>
+<controlRunClass></controlClass>
+<controlmaxRows></controlmaxRows>
+<Boxes>
+<Box>
+  <Col>0</Col>
+  <Row>0</Row>
+  <Cols>80</Cols>
+  <Rows>24</Rows>
+</Box>
+</Boxes>
+</ScreenSettings>
+<dataDictionary>
+<DataEntryFields>
+<field>
+  <primaryKey>N</primaryKey>
+  <name>Customer ID</name>
+  <type>STRING</type>
+  <mask></mask>
+  <length>5</length>
+  <row>1</row>
+  <col>14</col>
+  <defaultValue></defaultValue>
+  <label_column>2</label_column>
+  <label_text>Customer ID</label_text>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <primaryKey>N</primaryKey>
+  <name>Pymt Method</name>
+  <type>STRING</type>
+  <mask></mask>
+  <length>5</length>
+  <row>3</row>
+  <col>14</col>
+  <defaultValue></defaultValue>
+  <label_column>2</label_column>
+  <label_text>Pymt Method</label_text>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <primaryKey>N</primaryKey>
+  <name>Finance Charge?</name>
+  <type>STRING</type>
+  <mask></mask>
+  <length>5</length>
+  <row>4</row>
+  <col>18</col>
+  <defaultValue></defaultValue>
+  <label_column>2</label_column>
+  <label_text>Finance Charge?</label_text>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <primaryKey>N</primaryKey>
+  <name>Fin Charge Code</name>
+  <type>STRING</type>
+  <mask></mask>
+  <length>5</length>
+  <row>5</row>
+  <col>18</col>
+  <defaultValue></defaultValue>
+  <label_column>2</label_column>
+  <label_text>Fin Charge Code</label_text>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <primaryKey>N</primaryKey>
+  <name>Credit Limit</name>
+  <type>STRING</type>
+  <mask></mask>
+  <length>5</length>
+  <row>6</row>
+  <col>15</col>
+  <defaultValue></defaultValue>
+  <label_column>2</label_column>
+  <label_text>Credit Limit</label_text>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <primaryKey>N</primaryKey>
+  <name>Credit Hold</name>
+  <type>STRING</type>
+  <mask></mask>
+  <length>5</length>
+  <row>7</row>
+  <col>14</col>
+  <defaultValue></defaultValue>
+  <label_column>2</label_column>
+  <label_text>Credit Hold</label_text>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <primaryKey>N</primaryKey>
+  <name>New Finance Charges</name>
+  <type>STRING</type>
+  <mask></mask>
+  <length>5</length>
+  <row>10</row>
+  <col>22</col>
+  <defaultValue></defaultValue>
+  <label_column>2</label_column>
+  <label_text>New Finance Charges</label_text>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <primaryKey>N</primaryKey>
+  <name>Unpaid Finance Charges</name>
+  <type>STRING</type>
+  <mask></mask>
+  <length>5</length>
+  <row>11</row>
+  <col>25</col>
+  <defaultValue></defaultValue>
+  <label_column>2</label_column>
+  <label_text>Unpaid Finance Charges</label_text>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <primaryKey>N</primaryKey>
+  <name>Current Due</name>
+  <type>STRING</type>
+  <mask></mask>
+  <length>5</length>
+  <row>13</row>
+  <col>14</col>
+  <defaultValue></defaultValue>
+  <label_column>2</label_column>
+  <label_text>Current Due</label_text>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <primaryKey>N</primaryKey>
+  <name>Balance 31-60 days</name>
+  <type>STRING</type>
+  <mask></mask>
+  <length>5</length>
+  <row>14</row>
+  <col>21</col>
+  <defaultValue></defaultValue>
+  <label_column>2</label_column>
+  <label_text>Balance 31-60 days</label_text>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <primaryKey>N</primaryKey>
+  <name>61-90 days</name>
+  <type>STRING</type>
+  <mask></mask>
+  <length>5</length>
+  <row>15</row>
+  <col>21</col>
+  <defaultValue></defaultValue>
+  <label_column>10</label_column>
+  <label_text>61-90 days</label_text>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <primaryKey>N</primaryKey>
+  <name>91-120 days</name>
+  <type>STRING</type>
+  <mask></mask>
+  <length>5</length>
+  <row>16</row>
+  <col>22</col>
+  <defaultValue></defaultValue>
+  <label_column>10</label_column>
+  <label_text>91-120 days</label_text>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <primaryKey>N</primaryKey>
+  <name>121+ days</name>
+  <type>STRING</type>
+  <mask></mask>
+  <length>5</length>
+  <row>17</row>
+  <col>20</col>
+  <defaultValue></defaultValue>
+  <label_column>10</label_column>
+  <label_text>121+ days</label_text>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <primaryKey>N</primaryKey>
+  <name>Unapplied Credits</name>
+  <type>STRING</type>
+  <mask></mask>
+  <length>5</length>
+  <row>18</row>
+  <col>20</col>
+  <defaultValue></defaultValue>
+  <label_column>2</label_column>
+  <label_text>Unapplied Credits</label_text>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <primaryKey>N</primaryKey>
+  <name>Total Due</name>
+  <type>STRING</type>
+  <mask></mask>
+  <length>5</length>
+  <row>20</row>
+  <col>12</col>
+  <defaultValue></defaultValue>
+  <label_column>2</label_column>
+  <label_text>Total Due</label_text>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+</DataEntryFields>
+</dataDictionary>
+</ScreenConfiguration>

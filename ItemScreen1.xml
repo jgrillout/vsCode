@@ -1,0 +1,560 @@
+<ScreenConfiguration>
+<ScreenSettings>
+<Type>DataEntry</Type>
+<Title>Items1</Title>
+<Col>0</Col>
+<Row>0</Row>
+<Width>80</Width>
+<Height>24</Height>
+<Box>Y</Box>
+<NextType></NextType>
+<NextClass></NextClass>
+<hasControl>N</hasControl>
+<controlClass></controlClass>
+<controlmaxRows></controlmaxRows>
+</ScreenSettings>
+<dataDictionary>
+<DataEntryFields>
+<field>
+  <primaryKey>N</primaryKey>
+  <name>Item ID</name>
+  <type>STRING</type>
+  <mask></mask>
+  <length>5</length>
+  <row>1</row>
+  <col>10</col>
+  <defaultValue></defaultValue>
+  <label_column>2</label_column>
+  <label_text>Item ID</label_text>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <primaryKey>N</primaryKey>
+  <name>Location</name>
+  <type>STRING</type>
+  <mask></mask>
+  <length>5</length>
+  <row>1</row>
+  <col>61</col>
+  <defaultValue></defaultValue>
+  <label_column>52</label_column>
+  <label_text>Location</label_text>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <primaryKey>N</primaryKey>
+  <name>Description</name>
+  <type>STRING</type>
+  <mask></mask>
+  <length>5</length>
+  <row>2</row>
+  <col>14</col>
+  <defaultValue></defaultValue>
+  <label_column>2</label_column>
+  <label_text>Description</label_text>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <primaryKey>N</primaryKey>
+  <name>Units</name>
+  <type>STRING</type>
+  <mask></mask>
+  <length>5</length>
+  <row>2</row>
+  <col>58</col>
+  <defaultValue></defaultValue>
+  <label_column>52</label_column>
+  <label_text>Units</label_text>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <primaryKey>N</primaryKey>
+  <name>Vendor ID</name>
+  <type>STRING</type>
+  <mask></mask>
+  <length>5</length>
+  <row>4</row>
+  <col>12</col>
+  <defaultValue></defaultValue>
+  <label_column>2</label_column>
+  <label_text>Vendor ID</label_text>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <primaryKey>N</primaryKey>
+  <name>Bin Number</name>
+  <type>STRING</type>
+  <mask></mask>
+  <length>5</length>
+  <row>5</row>
+  <col>13</col>
+  <defaultValue></defaultValue>
+  <label_column>2</label_column>
+  <label_text>Bin Number</label_text>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <primaryKey>N</primaryKey>
+  <name>GL Account Code</name>
+  <type>STRING</type>
+  <mask></mask>
+  <length>5</length>
+  <row>5</row>
+  <col>59</col>
+  <defaultValue></defaultValue>
+  <label_column>43</label_column>
+  <label_text>GL Account Code</label_text>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <primaryKey>N</primaryKey>
+  <name>Price ID</name>
+  <type>STRING</type>
+  <mask></mask>
+  <length>5</length>
+  <row>6</row>
+  <col>11</col>
+  <defaultValue></defaultValue>
+  <label_column>2</label_column>
+  <label_text>Price ID</label_text>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <primaryKey>N</primaryKey>
+  <name>Lead Time</name>
+  <type>STRING</type>
+  <mask></mask>
+  <length>5</length>
+  <row>7</row>
+  <col>12</col>
+  <defaultValue></defaultValue>
+  <label_column>2</label_column>
+  <label_text>Lead Time</label_text>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <primaryKey>N</primaryKey>
+  <name>Sales</name>
+  <type>STRING</type>
+  <mask></mask>
+  <length>5</length>
+  <row>7</row>
+  <col>49</col>
+  <defaultValue></defaultValue>
+  <label_column>43</label_column>
+  <label_text>Sales</label_text>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <primaryKey>N</primaryKey>
+  <name>Status</name>
+  <type>STRING</type>
+  <mask></mask>
+  <length>5</length>
+  <row>8</row>
+  <col>9</col>
+  <defaultValue></defaultValue>
+  <label_column>2</label_column>
+  <label_text>Status</label_text>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <primaryKey>N</primaryKey>
+  <name>COGS</name>
+  <type>STRING</type>
+  <mask></mask>
+  <length>5</length>
+  <row>8</row>
+  <col>48</col>
+  <defaultValue></defaultValue>
+  <label_column>43</label_column>
+  <label_text>COGS</label_text>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <primaryKey>N</primaryKey>
+  <name>Forecast Type</name>
+  <type>STRING</type>
+  <mask></mask>
+  <length>5</length>
+  <row>9</row>
+  <col>16</col>
+  <defaultValue></defaultValue>
+  <label_column>2</label_column>
+  <label_text>Forecast Type</label_text>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <primaryKey>N</primaryKey>
+  <name>Inventory</name>
+  <type>STRING</type>
+  <mask></mask>
+  <length>5</length>
+  <row>9</row>
+  <col>53</col>
+  <defaultValue></defaultValue>
+  <label_column>43</label_column>
+  <label_text>Inventory</label_text>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <primaryKey>N</primaryKey>
+  <name>Work in Process</name>
+  <type>STRING</type>
+  <mask></mask>
+  <length>5</length>
+  <row>10</row>
+  <col>59</col>
+  <defaultValue></defaultValue>
+  <label_column>43</label_column>
+  <label_text>Work in Process</label_text>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <primaryKey>N</primaryKey>
+  <name>Pending Inventory Rtn</name>
+  <type>STRING</type>
+  <mask></mask>
+  <length>5</length>
+  <row>11</row>
+  <col>65</col>
+  <defaultValue></defaultValue>
+  <label_column>43</label_column>
+  <label_text>Pending Inventory Rtn</label_text>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <primaryKey>N</primaryKey>
+  <name>Quantity Status</name>
+  <type>STRING</type>
+  <mask></mask>
+  <length>5</length>
+  <row>12</row>
+  <col>41</col>
+  <defaultValue></defaultValue>
+  <label_column>25</label_column>
+  <label_text>Quantity Status</label_text>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <primaryKey>N</primaryKey>
+  <name>Loss from Sale Return</name>
+  <type>STRING</type>
+  <mask></mask>
+  <length>5</length>
+  <row>12</row>
+  <col>65</col>
+  <defaultValue></defaultValue>
+  <label_column>43</label_column>
+  <label_text>Loss from Sale Return</label_text>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <primaryKey>N</primaryKey>
+  <name>Max On-Hand Qty</name>
+  <type>STRING</type>
+  <mask></mask>
+  <length>5</length>
+  <row>13</row>
+  <col>18</col>
+  <defaultValue></defaultValue>
+  <label_column>2</label_column>
+  <label_text>Max On-Hand Qty</label_text>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <primaryKey>N</primaryKey>
+  <name>Min On-Hand Qty</name>
+  <type>STRING</type>
+  <mask></mask>
+  <length>5</length>
+  <row>14</row>
+  <col>18</col>
+  <defaultValue></defaultValue>
+  <label_column>2</label_column>
+  <label_text>Min On-Hand Qty</label_text>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <primaryKey>N</primaryKey>
+  <name>Inventory Adjustment</name>
+  <type>STRING</type>
+  <mask></mask>
+  <length>5</length>
+  <row>14</row>
+  <col>64</col>
+  <defaultValue></defaultValue>
+  <label_column>43</label_column>
+  <label_text>Inventory Adjustment</label_text>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <primaryKey>N</primaryKey>
+  <name>COGS Adjustment</name>
+  <type>STRING</type>
+  <mask></mask>
+  <length>5</length>
+  <row>15</row>
+  <col>59</col>
+  <defaultValue></defaultValue>
+  <label_column>43</label_column>
+  <label_text>COGS Adjustment</label_text>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <primaryKey>N</primaryKey>
+  <name>Order Point</name>
+  <type>STRING</type>
+  <mask></mask>
+  <length>5</length>
+  <row>16</row>
+  <col>14</col>
+  <defaultValue></defaultValue>
+  <label_column>2</label_column>
+  <label_text>Order Point</label_text>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <primaryKey>N</primaryKey>
+  <name>Purch Price Variance</name>
+  <type>STRING</type>
+  <mask></mask>
+  <length>5</length>
+  <row>16</row>
+  <col>64</col>
+  <defaultValue></defaultValue>
+  <label_column>43</label_column>
+  <label_text>Purch Price Variance</label_text>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <primaryKey>N</primaryKey>
+  <name>Safety Stock</name>
+  <type>STRING</type>
+  <mask></mask>
+  <length>5</length>
+  <row>17</row>
+  <col>15</col>
+  <defaultValue></defaultValue>
+  <label_column>2</label_column>
+  <label_text>Safety Stock</label_text>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <primaryKey>N</primaryKey>
+  <name>Phys Count Variance</name>
+  <type>STRING</type>
+  <mask></mask>
+  <length>5</length>
+  <row>17</row>
+  <col>63</col>
+  <defaultValue></defaultValue>
+  <label_column>43</label_column>
+  <label_text>Phys Count Variance</label_text>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <primaryKey>N</primaryKey>
+  <name>EOQ</name>
+  <type>STRING</type>
+  <mask></mask>
+  <length>5</length>
+  <row>18</row>
+  <col>6</col>
+  <defaultValue></defaultValue>
+  <label_column>2</label_column>
+  <label_text>EOQ</label_text>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <primaryKey>N</primaryKey>
+  <name>Phys Count Adjustment</name>
+  <type>STRING</type>
+  <mask></mask>
+  <length>5</length>
+  <row>18</row>
+  <col>65</col>
+  <defaultValue></defaultValue>
+  <label_column>43</label_column>
+  <label_text>Phys Count Adjustment</label_text>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <primaryKey>N</primaryKey>
+  <name>Min Order Qty</name>
+  <type>STRING</type>
+  <mask></mask>
+  <length>5</length>
+  <row>20</row>
+  <col>16</col>
+  <defaultValue></defaultValue>
+  <label_column>2</label_column>
+  <label_text>Min Order Qty</label_text>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <primaryKey>N</primaryKey>
+  <name>Transfer Cost</name>
+  <type>STRING</type>
+  <mask></mask>
+  <length>5</length>
+  <row>20</row>
+  <col>57</col>
+  <defaultValue></defaultValue>
+  <label_column>43</label_column>
+  <label_text>Transfer Cost</label_text>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+</DataEntryFields>
+</dataDictionary>
+</ScreenConfiguration>

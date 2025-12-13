@@ -1,0 +1,46 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "shell",
+            "label": "Build DataEntryDevTool",
+            "command": "cl.exe",
+            "args": [
+                "/Zi",
+                "/EHsc",
+                "/std:c++17",
+                "/Fe:",
+                "${workspaceFolder}\\DataEntryDevTool.exe",
+                "${workspaceFolder}\\DataEntry.cpp",
+                "${workspaceFolder}\\DataEntryUtils.cpp",
+                "${workspaceFolder}\\Dialog.cpp",
+                "${workspaceFolder}\\DialogWindowManager.cpp",
+                "${workspaceFolder}\\ISAMWrapperLib.cpp",
+                "${workspaceFolder}\\main.cpp",
+                "${workspaceFolder}\\MaskedInput.cpp",
+                "${workspaceFolder}\\MenuEntry.cpp",
+                "${workspaceFolder}\\MenuWindowManager.cpp",
+                "${workspaceFolder}\\NumericInput.cpp",
+                "${workspaceFolder}\\SharedWindowManager.cpp",
+                "${workspaceFolder}\\StringInput.cpp",
+                "${workspaceFolder}\\TransactionEntry.cpp",
+                "${workspaceFolder}\\TransactionEntryHeader.cpp",
+                "${workspaceFolder}\\TransactionEntryLines.cpp",
+                "${workspaceFolder}\\TransEntryControl.cpp",
+                "/link",
+                "pdcurses.lib",
+                "sqlite3.lib",
+                "user32.lib",
+                "advapi32.lib"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": ["$msCompile"],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}

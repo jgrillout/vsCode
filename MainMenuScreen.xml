@@ -1,0 +1,146 @@
+<ScreenConfiguration>
+    <ScreenProperties>
+		<Type>Menu</Type>
+		<Title>Main Menu</Title>
+        <Width>40</Width>
+        <Height>13</Height>
+	    <Border>Y</Border>
+		<exitRunType></exitRunType>		
+		<exitRunClass></exitRunClass>
+    </ScreenProperties>
+	<menuChoices>    
+	<selection>
+		<Choice>1</Choice>
+        <name>MenuOption1</name> 
+		<type>LABEL</type>
+        <row>1</row>
+        <col>2</col>
+		<labelCol>2</labelCol> 
+        <labelText>1. Accounts Receivables</labelText>    
+		<isEvent>Y</isEvent>		
+		<nextRunType>Menu</nextRunType>
+		<nextRunClass>ARMenuScreen</nextRunClass>
+		<inputType></inputType>
+		<inputMask></inputMask>
+		<inputLen></inputLen>
+        <inputRow></inputRow>
+        <inputCol></inputCol>  
+		<inputlabelCol></inputlabelCol> 
+        <inputlabelText></inputlabelText>  
+    </selection> 
+	<selection>
+		<Choice>2</Choice>
+        <name>MenuOption2</name>
+		<type>LABEL</type>		
+        <row>2</row>
+        <col>2</col>  
+		<labelCol>2</labelCol> 
+        <labelText>2. Accounts Payables</labelText> 
+		<isEvent>Y</isEvent>		
+		<nextRunType>Menu</nextRunType>
+		<nextRunClass>APMenuScreen </nextRunClass>
+		<inputType></inputType>
+		<inputMask></inputMask>
+		<inputLen></inputLen>
+        <inputRow></inputRow>
+        <inputCol></inputCol>  
+		<inputlabelCol></inputlabelCol> 
+        <inputlabelText></inputlabelText>  
+    </selection> 
+	<selection>
+		<Choice>3</Choice>
+		<name>MenuOption3</name>
+		<type>LABEL</type>
+        <row>3</row>
+        <col>2</col>  
+		<labelCol>2</labelCol> 
+        <labelText>3. Inventory</labelText>    
+		<isEvent>N</isEvent>	
+		<nextRunType>Menu</nextRunType>
+		<nextRunClass>INMenuScreen </nextRunClass>
+		<inputType></inputType>
+		<inputMask></inputMask>
+		<inputLen></inputLen>
+        <inputRow></inputRow>
+        <inputCol></inputCol>  
+		<inputlabelCol></inputlabelCol> 
+        <inputlabelText></inputlabelText>  
+    </selection>
+	<selection>
+		<Choice>4</Choice>
+		<name>MenuOption4</name>
+		<type>LABEL</type>
+        <row>4</row>
+        <col>2</col>  
+		<labelCol>2</labelCol> 
+        <labelText>4. General Ledger</labelText>    
+		<isEvent>Y</isEvent>
+		<nextRunType>Menu</nextRunType>
+		<nextRunClass>GLMenuScreen </nextRunClass>
+		<inputType></inputType>
+		<inputMask></inputMask>
+		<inputLen></inputLen>
+        <inputRow></inputRow>
+        <inputCol></inputCol>  
+		<inputlabelCol></inputlabelCol> 
+        <inputlabelText></inputlabelText>  
+    </selection>
+	<selection>
+		<Choice>5</Choice>
+		<name>MenuOption5</name>
+		<type>LABEL</type>
+        <row>5</row>
+        <col>2</col>  
+		<labelCol>2</labelCol> 
+        <labelText>5. Payroll</labelText>    
+		<isEvent>Y</isEvent>
+		<nextRunType>Menu</nextRunType>
+		<nextRunClass>PAMenuScreen </nextRunClass>
+		<inputType></inputType>
+		<inputMask></inputMask>
+		<inputLen></inputLen>
+        <inputRow></inputRow>
+        <inputCol></inputCol>  
+		<inputlabelCol></inputlabelCol> 
+        <inputlabelText></inputlabelText>  
+    </selection>	
+	
+	<selection>
+		<Choice>10</Choice>
+		<name>MenuOption10</name>
+		<type>LABEL</type>
+        <row>10</row>
+        <col>2</col>  
+		<labelCol>2</labelCol> 
+        <labelText>10. Exit</labelText>    
+		<isEvent>N</isEvent>		
+		<nextRunType></nextRunType>		
+		<nextRunClass>Exit</nextRunClass>
+		<inputType></inputType>
+		<inputMask></inputMask>
+		<inputLen></inputLen>
+        <inputRow></inputRow>
+        <inputCol></inputCol>  
+		<inputlabelCol></inputlabelCol> 
+        <inputlabelText></inputlabelText>  
+	</selection>
+	<selection>
+		<Choice>99</Choice>
+		<name>MenuInput</name>
+		<type>INPUT</type>
+        <row>0</row>
+        <col>0</col>  
+		<labelCol>0</labelCol> 
+        <labelText></labelText>    
+		<isEvent></isEvent>		
+		<nextRunType></nextRunType>
+		<nextRunClass></nextRunClass>
+		<inputType>NUMERIC</inputType>
+		<inputMask>99</inputMask>
+		<inputLen>2</inputLen>
+        <inputRow>11</inputRow>
+		<inputlabelCol>8</inputlabelCol> 
+        <inputlabelText>Choice:</inputlabelText>  
+	</selection>
+</menuChoices>
+</ScreenConfiguration>

@@ -1,0 +1,558 @@
+<ScreenConfiguration>
+<ScreenSettings>
+<Type>DataEntry</Type>
+<Title>VendorScreen</Title>
+<Table>Vendors</Table>
+<Col>0</Col>
+<Row>0</Row>
+<Width>80</Width>
+<Height>24</Height>
+<Box>Y</Box>
+<NextType></NextType>
+<NextClass></NextClass>
+<hasControl>N</hasControl>
+<controlRunClass></controlRunClass>
+<controlmaxRows></controlmaxRows>
+<Boxes>
+<Box>
+  <Col>0</Col>
+  <Row>0</Row>
+  <Cols>80</Cols>
+  <Rows>24</Rows>
+</Box>
+<Box>
+  <Col>1</Col>
+  <Row>2</Row>
+  <Cols>78</Cols>
+  <Rows>0</Rows>
+</Box>
+<Box>
+  <Col>1</Col>
+  <Row>14</Row>
+  <Cols>78</Cols>
+  <Rows>0</Rows>
+</Box>
+<Box>
+  <Col>45</Col>
+  <Row>3</Row>
+  <Cols>0</Cols>
+  <Rows>11</Rows>
+</Box>
+<Box>
+  <Col>1</Col>
+  <Row>18</Row>
+  <Cols>78</Cols>
+  <Rows>0</Rows>
+</Box>
+<Box>
+  <Col>1</Col>
+  <Row>21</Row>
+  <Cols>78</Cols>
+  <Rows>0</Rows>
+</Box>
+</Boxes>
+<Labels>
+<Label>
+  <Col>2</Col>
+  <Row>1</Row>
+  <labelText>Vendor ID</labelText>
+</Label>
+<Label>
+  <Col>22</Col>
+  <Row>1</Row>
+  <labelText>Status</labelText>
+</Label>
+<Label>
+  <Col>10</Col>
+  <Row>2</Row>
+  <labelText> Vendor Address Information </labelText>
+</Label>
+<Label>
+  <Col>52</Col>
+  <Row>2</Row>
+  <labelText> Pay-To Information </labelText>
+</Label>
+<Label>
+  <Col>2</Col>
+  <Row>3</Row>
+  <labelText>Name</labelText>
+</Label>
+<Label>
+  <Col>2</Col>
+  <Row>4</Row>
+  <labelText>Address 1</labelText>
+</Label>
+<Label>
+  <Col>2</Col>
+  <Row>5</Row>
+  <labelText>Address 2</labelText>
+</Label>
+<Label>
+  <Col>2</Col>
+  <Row>6</Row>
+  <labelText>Address 3</labelText>
+</Label>
+<Label>
+  <Col>2</Col>
+  <Row>7</Row>
+  <labelText>City/State</labelText>
+</Label>
+<Label>
+  <Col>2</Col>
+  <Row>8</Row>
+  <labelText>Zip/Country</labelText>
+</Label>
+<Label>
+  <Col>2</Col>
+  <Row>9</Row>
+  <labelText>Phone</labelText>
+</Label>
+<Label>
+  <Col>2</Col>
+  <Row>10</Row>
+  <labelText>Fax</labelText>
+</Label>
+<Label>
+  <Col>2</Col>
+  <Row>11</Row>
+  <labelText>Contact</labelText>
+</Label>
+<Label>
+  <Col>2</Col>
+  <Row>12</Row>
+  <labelText>Our Account</labelText>
+</Label>
+<Label>
+  <Col>47</Col>
+  <Row>12</Row>
+  <labelText>Attn:</labelText>
+</Label>
+<Label>
+  <Col>2</Col>
+  <Row>14</Row>
+  <labelText> Internet Information </labelText>
+</Label>
+<Label>
+  <Col>2</Col>
+  <Row>16</Row>
+  <labelText>Web Site</labelText>
+</Label>
+<Label>
+  <Col>2</Col>
+  <Row>18</Row>
+  <labelText> Balance Information </labelText>
+</Label>
+<Label>
+  <Col>2</Col>
+  <Row>19</Row>
+  <labelText>Payment Method</labelText>
+</Label>
+<Label>
+  <Col>2</Col>
+  <Row>20</Row>
+  <labelText>Amount Prepaid</labelText>
+</Label>
+</Labels>
+</ScreenSettings>
+<dataDictionary>
+<DataEntryFields>
+<field>
+  <varName>VE0$</varName>
+  <primaryKey>Y</primaryKey>
+  <name>VEND</name>
+  <type>STRING</type>
+  <mask></mask>
+  <length>6</length>
+  <row>1</row>
+  <col>14</col>
+  <defaultValue></defaultValue>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>Y</inquiryAllowed>
+  <inquiryOrderBy>VEND</inquiryOrderBy>
+  <inquiryFields>VEND,VNAME</inquiryFields>
+  <fieldRequired>Y</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <varName>VE1$</varName>
+  <primaryKey>N</primaryKey>
+  <name>VNAME</name>
+  <type>STRING</type>
+  <mask></mask>
+  <length>30</length>
+  <row>3</row>
+  <col>14</col>
+  <defaultValue></defaultValue>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <inquiryFields></inquiryFields>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <varName>VE2$(1,30)</varName>
+  <primaryKey>N</primaryKey>
+  <name>VADD1</name>
+  <type>STRING</type>
+  <mask></mask>
+  <length>30</length>
+  <row>4</row>
+  <col>14</col>
+  <defaultValue></defaultValue>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <inquiryFields></inquiryFields>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <varName>VE2$(31,30)</varName>
+  <primaryKey>N</primaryKey>
+  <name>VADD2</name>
+  <type>STRING</type>
+  <mask></mask>
+  <length>30</length>
+  <row>5</row>
+  <col>14</col>
+  <defaultValue></defaultValue>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <inquiryFields></inquiryFields>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <varName>VE2$(61,30)</varName>
+  <primaryKey>N</primaryKey>
+  <name>VADD3</name>
+  <type>STRING</type>
+  <mask></mask>
+  <length>30</length>
+  <row>6</row>
+  <col>14</col>
+  <defaultValue></defaultValue>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <inquiryFields></inquiryFields>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <varName>VE2$(91,15)</varName>
+  <primaryKey>N</primaryKey>
+  <name>VCITY</name>
+  <type>STRING</type>
+  <mask></mask>
+  <length>15</length>
+  <row>7</row>
+  <col>14</col>
+  <defaultValue></defaultValue>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <inquiryFields></inquiryFields>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <varName>VE2$(106,3)</varName>
+  <primaryKey>N</primaryKey>
+  <name>VST</name>
+  <type>STRING</type>
+  <mask></mask>
+  <length>3</length>
+  <row>7</row>
+  <col>31</col>
+  <defaultValue></defaultValue>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed> 
+  <inquiryOrderBy></inquiryOrderBy>
+  <inquiryFields></inquiryFields>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <varName>VE2$(111,12)</varName>
+  <primaryKey>N</primaryKey>
+  <name>VZIP</name>
+  <type>STRING</type>
+  <mask></mask>
+  <length>12</length>
+  <row>8</row>
+  <col>14</col>
+  <defaultValue></defaultValue>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <inquiryFields></inquiryFields>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <varName>VE2$(109,2)</varName>
+  <primaryKey>N</primaryKey>
+  <name>VCTRY</name>
+  <type>STRING</type>
+  <mask></mask>
+  <length>2</length>
+  <row>8</row>
+  <col>31</col>
+  <defaultValue></defaultValue>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <inquiryFields></inquiryFields>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <varName>VE4$(21,25)</varName>
+  <primaryKey>N</primaryKey>
+  <name>CONT</name>
+  <type>STRING</type>
+  <mask></mask>
+  <length>25</length>
+  <row>11</row>
+  <col>14</col>
+  <defaultValue></defaultValue>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <inquiryFields></inquiryFields>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <varName>VE2$(320,25)</varName>
+  <primaryKey>N</primaryKey>
+  <name>OANUM</name>
+  <type>STRING</type>
+  <mask></mask>
+  <length>25</length>
+  <row>12</row>
+  <col>14</col>
+  <defaultValue></defaultValue>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <inquiryFields></inquiryFields>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <varName>VE2$(123,30)</varName>
+  <primaryKey>N</primaryKey>
+  <name>PNAME</name>
+  <type>STRING</type>
+  <mask></mask>
+  <length>30</length>
+  <row>3</row>
+  <col>47</col>
+  <defaultValue></defaultValue>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <inquiryFields></inquiryFields>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <varName>VE2$(153,30)</varName>
+  <primaryKey>N</primaryKey>
+  <name>PADD1</name>
+  <type>STRING</type>
+  <mask></mask>
+  <length>30</length>
+  <row>4</row>
+  <col>47</col>
+  <defaultValue></defaultValue>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <inquiryFields></inquiryFields>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <varName>VE2$(183,30)</varName>
+  <primaryKey>N</primaryKey>
+  <name>PADD2</name>
+  <type>STRING</type>
+  <mask></mask>
+  <length>30</length>
+  <row>5</row>
+  <col>47</col>
+  <defaultValue></defaultValue>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <inquiryFields></inquiryFields>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <varName>VE2$(213,30)</varName>
+  <primaryKey>N</primaryKey>
+  <name>PADD3</name>
+  <type>STRING</type>
+  <mask></mask>
+  <length>30</length>
+  <row>6</row>
+  <col>47</col>
+  <defaultValue></defaultValue>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <inquiryFields></inquiryFields>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <varName>VE2$(243,15)</varName>
+  <primaryKey>N</primaryKey>
+  <name>PCITY</name>
+  <type>STRING</type>
+  <mask></mask>
+  <length>15</length>
+  <row>7</row>
+  <col>47</col>
+  <defaultValue></defaultValue>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <inquiryFields></inquiryFields>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <varName>VE2$(258,3)</varName>
+  <primaryKey>N</primaryKey>
+  <name>PST</name>
+  <type>STRING</type>
+  <mask></mask>
+  <length>3</length>
+  <row>7</row>
+  <col>64</col>
+  <defaultValue></defaultValue>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <inquiryFields></inquiryFields>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <varName>VE2$(263,12)</varName>
+  <primaryKey>N</primaryKey>
+  <name>PZIP</name>
+  <type>STRING</type>
+  <mask></mask>
+  <length>12</length>
+  <row>8</row>
+  <col>47</col>
+  <defaultValue></defaultValue>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <inquiryFields></inquiryFields>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <varName>VE2$(261,2)</varName>
+  <primaryKey>N</primaryKey>
+  <name>PCTRY</name>
+  <type>STRING</type>
+  <mask></mask>
+  <length>2</length>
+  <row>8</row>
+  <col>64</col>
+  <defaultValue></defaultValue>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <inquiryFields></inquiryFields>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <varName>VE2$(295,25)</varName>
+  <primaryKey>N</primaryKey>
+  <name>PATTN</name>
+  <type>STRING</type>
+  <mask></mask>
+  <length>25</length>
+  <row>12</row>
+  <col>53</col>
+  <defaultValue></defaultValue>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <inquiryFields></inquiryFields>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <varName>VE9$</varName>
+  <primaryKey>N</primaryKey>
+  <name>WEB</name>
+  <type>STRING</type>
+  <mask></mask>
+  <length>50</length>
+  <row>16</row>
+  <col>17</col>
+  <defaultValue></defaultValue>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <inquiryFields></inquiryFields>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <varName>VE10$</varName>
+  <primaryKey>N</primaryKey>
+  <name>MOP</name>
+  <type>STRING</type>
+  <mask></mask>
+  <length>3</length>
+  <row>19</row>
+  <col>17</col>
+  <defaultValue></defaultValue>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <inquiryFields></inquiryFields>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+</DataEntryFields>
+</dataDictionary>
+</ScreenConfiguration>
+

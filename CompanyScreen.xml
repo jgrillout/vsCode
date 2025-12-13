@@ -1,0 +1,286 @@
+<ScreenConfiguration>
+<ScreenSettings>
+<Type>DataEntry</Type>
+<Title>CompanyScreen</Title>
+<Col>0</Col>
+<Row>0</Row>
+<Width>80</Width>
+<Height>24</Height>
+<Box>Y</Box>
+<NextType></NextType>
+<NextClass></NextClass>
+<hasControl>N</hasControl>
+<controlClass></controlClass>
+<controlmaxRows></controlmaxRows>
+<Boxes>
+<Box>
+  <Col>0</Col>
+  <Row>0</Row>
+  <Cols>80</Cols>
+  <Rows>24</Rows>
+</Box>
+<Box>
+  <Col>1</Col>
+  <Row>21</Row>
+  <Cols>78</Cols>
+  <Rows>0</Rows>
+</Box>
+<Boxes>
+</ScreenSettings>
+<dataDictionary>
+<DataEntryFields>
+<field>
+  <primaryKey>N</primaryKey>
+  <name>Company ID</name>
+  <type>STRING</type>
+  <mask></mask>
+  <length>5</length>
+  <row>2</row>
+  <col>13</col>
+  <defaultValue></defaultValue>
+  <label_column>2</label_column>
+  <label_text>Company ID</label_text>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <primaryKey>N</primaryKey>
+  <name>Name</name>
+  <type>STRING</type>
+  <mask></mask>
+  <length>5</length>
+  <row>4</row>
+  <col>7</col>
+  <defaultValue></defaultValue>
+  <label_column>2</label_column>
+  <label_text>Name</label_text>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <primaryKey>N</primaryKey>
+  <name>Address 1</name>
+  <type>STRING</type>
+  <mask></mask>
+  <length>5</length>
+  <row>5</row>
+  <col>12</col>
+  <defaultValue></defaultValue>
+  <label_column>2</label_column>
+  <label_text>Address 1</label_text>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <primaryKey>N</primaryKey>
+  <name>Address 2</name>
+  <type>STRING</type>
+  <mask></mask>
+  <length>5</length>
+  <row>6</row>
+  <col>12</col>
+  <defaultValue></defaultValue>
+  <label_column>2</label_column>
+  <label_text>Address 2</label_text>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <primaryKey>N</primaryKey>
+  <name>City</name>
+  <type>STRING</type>
+  <mask></mask>
+  <length>5</length>
+  <row>7</row>
+  <col>7</col>
+  <defaultValue></defaultValue>
+  <label_column>2</label_column>
+  <label_text>City</label_text>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <primaryKey>N</primaryKey>
+  <name>State</name>
+  <type>STRING</type>
+  <mask></mask>
+  <length>5</length>
+  <row>8</row>
+  <col>8</col>
+  <defaultValue></defaultValue>
+  <label_column>2</label_column>
+  <label_text>State</label_text>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <primaryKey>N</primaryKey>
+  <name>Zip</name>
+  <type>STRING</type>
+  <mask></mask>
+  <length>5</length>
+  <row>9</row>
+  <col>6</col>
+  <defaultValue></defaultValue>
+  <label_column>2</label_column>
+  <label_text>Zip</label_text>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <primaryKey>N</primaryKey>
+  <name>Country</name>
+  <type>STRING</type>
+  <mask></mask>
+  <length>5</length>
+  <row>10</row>
+  <col>10</col>
+  <defaultValue></defaultValue>
+  <label_column>2</label_column>
+  <label_text>Country</label_text>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <primaryKey>N</primaryKey>
+  <name>Site</name>
+  <type>STRING</type>
+  <mask></mask>
+  <length>5</length>
+  <row>12</row>
+  <col>7</col>
+  <defaultValue></defaultValue>
+  <label_column>2</label_column>
+  <label_text>Site</label_text>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <primaryKey>N</primaryKey>
+  <name>Phone</name>
+  <type>STRING</type>
+  <mask></mask>
+  <length>5</length>
+  <row>13</row>
+  <col>8</col>
+  <defaultValue></defaultValue>
+  <label_column>2</label_column>
+  <label_text>Phone</label_text>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <primaryKey>N</primaryKey>
+  <name>Fax</name>
+  <type>STRING</type>
+  <mask></mask>
+  <length>5</length>
+  <row>14</row>
+  <col>6</col>
+  <defaultValue></defaultValue>
+  <label_column>2</label_column>
+  <label_text>Fax</label_text>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <primaryKey>N</primaryKey>
+  <name>Logo File</name>
+  <type>STRING</type>
+  <mask></mask>
+  <length>5</length>
+  <row>16</row>
+  <col>12</col>
+  <defaultValue></defaultValue>
+  <label_column>2</label_column>
+  <label_text>Logo File</label_text>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <primaryKey>N</primaryKey>
+  <name>E-mail Address</name>
+  <type>STRING</type>
+  <mask></mask>
+  <length>5</length>
+  <row>18</row>
+  <col>17</col>
+  <defaultValue></defaultValue>
+  <label_column>2</label_column>
+  <label_text>E-mail Address</label_text>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+<field>
+  <primaryKey>N</primaryKey>
+  <name>Web Site</name>
+  <type>STRING</type>
+  <mask></mask>
+  <length>5</length>
+  <row>19</row>
+  <col>11</col>
+  <defaultValue></defaultValue>
+  <label_column>2</label_column>
+  <label_text>Web Site</label_text>
+  <AllowedChoices></AllowedChoices>
+  <ChoiceDescriptions></ChoiceDescriptions>
+  <inquiryAllowed>N</inquiryAllowed>
+  <inquiryOrderBy></inquiryOrderBy>
+  <fieldRequired>N</fieldRequired>
+  <isDisplayOnly>N</isDisplayOnly>
+</field>
+</DataEntryFields>
+</dataDictionary>
+</ScreenConfiguration>

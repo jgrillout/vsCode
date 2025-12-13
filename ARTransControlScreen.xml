@@ -1,0 +1,348 @@
+
+<Screen>
+<ScreenProperties>
+<Type>TransControl</Type>
+<Title></Title>
+<Col>2</Col>
+<Row>8</Row>
+<Width>80</Width>
+<Height>24</Height>
+<Border>Y</Border>
+<NextType>TransControl</NextType>
+<NextClass>ARTransControlScreen</NextClass>
+<exitRunType>Menu</exitRunType>		
+<exitRunClass>ARMenuScreen</exitRunClass>
+<hasControl>N</hasControl>
+<controlClass>ARTransControlScreen</controlClass>
+<scrollTable>ARTransLines</scrollTable>
+<scrollKey>TRANS</scrollKey>
+<scrollMaxRows>8</scrollMaxRows>
+<scrollWidth>77</scrollWidth>
+<scrollHeight>8</scrollHeight>
+<scrollstarty>8</scrollstarty>
+<scrollstartx>2</scrollstartx>
+</ScreenProperties>
+<ScreenControls>
+<Boxes>
+<Box>
+  <Col>0</Col>
+  <Row>7</Row>
+  <Cols>79</Cols>
+  <Rows>0</Rows>
+</Box>
+ 
+  <Col>0</Col>
+  <Row>18/Row>
+  <Cols>79</Cols>
+  <Rows>0</Rows>
+</Box>
+<Box>
+  <Col>0</Col>
+  <Row>21</Row>
+  <Cols>79</Cols>
+  <Rows>0</Rows>
+</Box>
+<Box>
+  <Col>62</Col>
+  <Row>19</Row>
+  <Cols>0</Cols>
+  <Rows>2</Rows>
+</Box>
+
+</Boxes>
+
+<Displaylabels>
+<Label>
+  <Col>1</Col>
+  <Row>1</Row>
+  <labelText>Sold To:</labelText>  
+  <labelFieldName>CUST</labelFieldName>
+  <labelParmName></labelParmName>
+  <labelFieldCol>10</labelFieldCol>
+  <labelFieldRow>1</labelFieldRow>
+</Label>
+<Label>
+  <Col>1</Col>
+  <Row>2</Row>
+  <labelText>Ship To:</labelText>
+  <labelFieldName>SHIPTONUM</labelFieldName>
+  <labelParmName></labelParmName>
+  <labelFieldCol>10</labelFieldCol>
+  <labelFieldRow>2</labelFieldRow>
+</Label>
+<Label>
+    <Col>29</Col>
+    <Row>2</Row>
+	<labelText>Transaction Type</labelText>
+	<labelFieldName>TTYP</labelFieldName>
+	<labelParmName></labelParmName>
+	<labelFieldCol>46</labelFieldCol>
+	<labelFieldRow>2</labelFieldRow>
+	<choiceValues>1,5</choiceValues>
+	<choiceDescriptions>Invoice,Credit</choiceDescriptions>
+</Label>
+<Label>
+  <Col>45</Col>
+  <Row>1</Row>
+  <labelText>Loc ID</labelText>
+  <labelFieldName>LOCA</labelFieldName>
+  <labelParmName></labelParmName>
+  <labelFieldCol>52</labelFieldCol>
+  <labelFieldRow>1</labelFieldRow>
+</Label>
+<Label>
+  <Col>60</Col>
+  <Row>1</Row>
+  <labelText>Batch ID</labelText>
+  <labelFieldName>BATCH</labelFieldName>
+  <labelParmName></labelParmName>
+  <labelFieldCol>69</labelFieldCol>
+  <labelFieldRow>1</labelFieldRow>
+</Label>
+<Label>
+  <Col>60</Col>
+  <Row>2</Row>
+  <labelText>Trans No</labelText>
+  <labelFieldName>TRANS</labelFieldName>
+  <labelParmName></labelParmName>
+  <labelFieldCol>69</labelFieldCol>
+  <labelFieldRow>2</labelFieldRow>
+</Label>
+<Label>
+  <Col>1</Col>
+  <Row>5</Row>
+  <labelText>Item /Job ID</labelText>
+</Label>
+<Label>
+  <Col>29</Col>
+  <Row>5</Row>
+  <labelText>Qty Ordered</labelText>
+</Label>
+<Label>
+  <Col>44</Col>
+  <Row>5</Row>
+  <labelText>Units</labelText>
+</Label>
+<Label>
+  <Col>52</Col>
+  <Row>5</Row>
+  <labelText>Unit Price</labelText>
+</Label>
+<Label>
+  <Col>68</Col>
+  <Row>5</Row>
+  <labelText>Ext. Price</labelText>
+  
+</Label>
+<Label>
+  <Col>4</Col>
+  <Row>6</Row>
+  <labelText>Description</labelText>
+</Label>
+<Label>
+  <Col>29</Col>
+  <Row>6</Row>
+  <labelText>Qty Shipped</labelText>
+</Label>
+<Label>
+  <Col>56</Col>
+  <Row>17</Row>
+  <labelText>Entry (xxxx) of (yyyy)</labelText>
+</Label>
+<Label>
+  <Col>7</Col>
+  <Row>19</Row>
+  <labelText>Subtotal</labelText> 
+  <labelFieldCol>7</labelFieldCol>
+  <labelFieldRow>20</labelFieldRow>
+  <labelFieldName></labelFieldName>
+  <labelFieldSQL>SELECT SUM(UPRC*OQTY) AS [TRXTOT] FROM ARTransLines </labelFieldSQL>
+  <labelFieldWHERE></labelFieldWHERE>
+  <labelParmName>TRXTOT</labelParmName>
+  <type>NUMERIC</type>  
+  <mask>"99999999.99"</mask>
+</Label>
+<Label>
+  <Col>20</Col>
+  <Row>19</Row>
+  <labelText>Frieght + Misc</labelText>
+  <labelFieldName></labelFieldName>
+  <labelParmName></labelParmName>
+  <labelCalc>[FRT]+[MISC]</labelCalc>
+  <labelFieldCol>20</labelFieldCol>
+  <labelFieldRow>20</labelFieldRow>
+</Label>
+<Label>
+  <Col>35</Col>
+  <Row>19</Row>
+  <labelText>Sales Tax</labelText>
+  <labelFieldName>SLSTX</labelFieldName>
+  <labelParmName></labelParmName>
+  <labelCalc></labelCalc>
+  <labelFieldCol>35</labelFieldCol>
+  <labelFieldRow>20</labelFieldRow>
+</Label>
+<Label>
+  <Col>49</Col>
+  <Row>19</Row>
+  <labelText>Prepayment</labelText>
+  <labelFieldName></labelFieldName>
+  <labelParmName></labelParmName>
+  <labelCalc></labelCalc>
+  <labelFieldCol>49</labelFieldCol>
+  <labelFieldRow>20</labelFieldRow>
+</Label>
+<Label>
+  <Col>70</Col>
+  <Row>19</Row>
+  <labelText>Net Due</labelText>
+  <labelFieldName></labelFieldName>
+  <labelParmName></labelParmName>
+  <labelCalc></labelCalc>
+  <labelFieldCol>70</labelFieldCol>
+  <labelFieldRow>20</labelFieldRow>
+</Label>
+<Label>
+  <Col>16</Col>
+  <Row>22</Row>
+  <labelText>Enter=edit,Append,Header,Totals,View,Next trans</labelText>
+ </Label>
+</Displaylabels>
+<ControlFields>
+<field>
+ <name>BATCH</name>
+  <type>STRING</type>
+  <calc></calc>
+  <mask></mask>
+  <length>6</length>
+  <col>0</col>
+  <row>0</row>
+  <hidden>Y</hidden>
+</field>
+
+<field>
+  <name>TRANS</name>
+  <type>STRING</type>
+  <calc></calc>
+  <mask>"9999"</mask>
+  <length>4</length>  
+  <col>0</col> 
+  <row>0</row>
+  <hidden>Y</hidden>
+</field>
+<field>
+  <name>ENT</name>
+  <type>STRING</type>
+  <calc></calc>
+  <mask>"999"</mask>
+  <length>3</length>  
+  <col>0</col> 
+  <row>0</row>
+  <hidden>Y</hidden>
+</field>
+<field>
+  <name>ITEM</name>
+  <type>STRING</type>
+  <calc></calc>
+  <mask></mask>
+  <length>20</length>  
+  <col>2</col> 
+  <row>0</row>
+  <hidden>N</hidden>
+</field>
+<field>
+  <name>OQTY</name>
+  <type>NUMERIC</type>
+  <calc></calc>
+  <mask>"99999999.99"</mask>
+  <length>11</length>
+  <col>27</col> 
+  <row>0</row>  
+  <hidden>N</hidden>
+</field>
+<field>
+  <name>SUOM</name>
+  <type>STRING</type>
+  <calc></calc>
+  <mask></mask>
+  <length>5</length>
+  <col>42</col>
+  <row>0</row>
+  <hidden>N</hidden>
+</field>
+<field>
+  <name>UPRC</name>
+  <type>NUMERIC</type>
+  <calc></calc>
+  <mask>"99999999.99"</mask>
+  <length>11</length>
+  <col>49</col>
+  <row>0</row>
+  <hidden>N</hidden>
+  </field>
+<field>
+  <name>EXTPRC</name>  
+  <type>NUMERIC</type>
+  <calc>OQTY*UPRC</calc>
+  <mask>99999999.99</mask>
+  <length>11</length>
+  <col>65</col>
+  <row>0</row>
+  <hidden>N</hidden>
+</field>
+<field>  
+  <name>DESCR</name>
+  <type>STRING</type>
+  <calc></calc>
+  <mask></mask>
+  <length>20</length>
+  <col>4</col>
+  <row>1</row>
+  <hidden>N</hidden>
+</field>
+<field>
+  <name>SSQTY</name>
+  <type>NUMERIC</type>
+   <calc></calc>
+  <mask>"99999999.99"</mask>
+  <length>11</length>
+  <col>27</col>
+  <row>1</row>
+  <hidden>N</hidden>
+</field>
+</ControlFields>
+<OrderBy>TRANS</OrderBy>
+<Where>TRANS</Where>
+<CommandLine>
+<CommandText>"Enter=edit,Append,Header,Totals,View,Next trans"</CommandText>
+<Row>21</Row>
+<Col>2</Col>
+<CommandKeys>
+<KeyValue>Enter</KeyValue>
+<nextRunType>DataEntry</nextRunType>
+<nextRunClass>ARTransLineScreen</nextRunClass>
+<KeyValue>A</KeyValue>
+<nextRunType>DataEntry</nextRunType>
+<nextRunClass>ARTransLineScreen</nextRunClass>
+<KeyValue>H</KeyValue>
+<nextRunType>DataEntry</nextRunType>
+<nextRunClass>ARTransHeaderScreen</nextRunClass>
+<KeyValue>T</KeyValue>
+<nextRunType>DataEntry</nextRunType>
+<nextRunClass>ARTransTotalsScreen</nextRunClass>
+</CommandKeys>
+</CommandLine>
+</ScreenControls>
+</Screen>
+<Struct name="PassParam">    
+	<Field fieldName="ALLOWADD" Parm="AllowAdd"  value="Y"/>
+    <Field fieldName="ALLOWEDT" Parm="AllowEdit"  value="Y"/>
+	<Field fieldName="ALLOWDEL" Parm="AllowDelete" value="Y"/>	
+    <Field fieldName="BATCH" Parm="BatchId"  value=" "/>
+	<Field fieldName="TRANS" Parm="TransNo" value=" "/>
+	<Field fieldName="ENT" Parm="TransLineNo" value=" "/>
+	<Field fieldName="TTYP" Parm="TrxType"  value=" "/>
+	<Field fieldName="CUST" Parm="CustId"  value=" "/>
+	<Field fieldName="TRXTOT" Parm="trxTotal_"  value=" "/>
+	<Field fieldName="CTRL" Parm="controlClass"  value=" "/>	
+</Struct>
