@@ -1,0 +1,48 @@
+# Build artifacts
+*.obj
+*.exe
+*.ilk
+*.pdb
+*.idb
+Win32/
+
+# Libraries (keep source sqlite3.h but ignore built libs)
+*.lib
+*.dll
+
+# Database files
+*.db
+*.db-journal
+
+# Debug/log files
+debug.txt
+debug_log.txt
+
+# Temporary/scratch files
+*.txt
+!TO DO.txt
+junk.cpp
+new *.xml
+
+# Data files
+*.csv
+*.xlsx
+
+# Backup/copy files
+*Copy*
+*- old*
+*--wrong*
+*_old*
+*- Edited*
+old*.cpp
+old*.h
+
+# Third-party libraries
+PDCurses-3.8/
+
+# VS Code user-specific settings
+.vscode/launch.json
+.vscode/c_cpp_properties.json
+
+# Visual Studio user settings
+*.vcxproj.user
