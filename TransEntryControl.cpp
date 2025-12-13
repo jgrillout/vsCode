@@ -182,8 +182,9 @@ std::string  TransEntryControl::run(std::map<std::string, std::string>& headerRe
     displayControlLabels(winFormScreen, headerRecord, controlLabels, transControlPassParams, screenProps, controlFields, commandLine, debugFile); // or winScroll?
     displayRecords(screenProps, controlFields, controlLabels, winFormScreen, winScroll, commandLine, debugFile);
 
-    handleInput(transControlPassParams, screenProps, controlLabels, controlFields, winFormScreen, winScroll, commandLine, entryLinesfields, debugFile);
+    result = handleInput(transControlPassParams, screenProps, controlLabels, controlFields, winFormScreen, winScroll, commandLine, entryLinesfields, debugFile);
 
+    return result;
 }
 
 void TransEntryControl::loadRecords(
@@ -468,10 +469,13 @@ void TransEntryControl::updateRowCountLabel(std::vector<LabelProperties>& contro
 
 
 
-void TransEntryControl::handleInput(PassParams& transControlPassParams, std::vector<ScreenProperties>& screenProps, std::vector<LabelProperties>& labels, std::vector<controlFieldProperties>& controlFields, WINDOW* winFormScreen, WINDOW* winScroll, CommandLineProperties& commandLine, std::vector<DataEntryFieldProperties>& entryLinesfields, std::ofstream& debugFile) {
+std::string TransEntryControl::handleInput(PassParams& transControlPassParams, std::vector<ScreenProperties>& screenProps, std::vector<LabelProperties>& labels, std::vector<controlFieldProperties>& controlFields, WINDOW* winFormScreen, WINDOW* winScroll, CommandLineProperties& commandLine, std::vector<DataEntryFieldProperties>& entryLinesfields, std::ofstream& debugFile) {
 
     int ch;
     RunResult runresult;
+    int stdscrRows, stdscrCols;
+    getmaxyx(stdscr, stdscrRows, stdscrCols);
+
     while ((ch = wgetch(winScroll)) != 'q') {
         switch (ch) {
         case KEY_UP:
@@ -492,6 +496,12 @@ void TransEntryControl::handleInput(PassParams& transControlPassParams, std::vec
         case KEY_END:
             moveToBottom();
             break;
+        case KEY_F(7):
+            // F7 pressed - confirm exit and return to menu
+            if (DataEntry::confirmAction(2, 2, stdscrCols, "Exit", COLOR_PAIR(1), KEY_F(7), debugFile)) {
+                return "Exit";
+            }
+            break;
         case '\n':
             runresult = handleCommandKey(ch, transControlPassParams, screenProps, labels, controlFields, winScroll, commandLine, entryLinesfields, debugFile);
             break;
@@ -501,7 +511,7 @@ void TransEntryControl::handleInput(PassParams& transControlPassParams, std::vec
         }
 
 
-        // redraw the control screen content.
+        // If a sub-screen (like line entry) exited via F7, redraw the control screen
         if (runresult.status == "Exit") {
             // Clear both form and scroll windows, then recreate and redraw boxes
             SharedWindowManager::hidewinFormScreen();
@@ -516,7 +526,7 @@ void TransEntryControl::handleInput(PassParams& transControlPassParams, std::vec
             wattrset(winScroll, A_NORMAL);
             // Redraw the winFormScreen border (lost when window was cleared)
             box(winFormScreen, ACS_VLINE, ACS_HLINE);
-            
+
             // Redraw the box borders
             DataEntry::drawBoxes(boxes_);
 
@@ -528,10 +538,13 @@ void TransEntryControl::handleInput(PassParams& transControlPassParams, std::vec
                 winFormScreen, winScroll,
                 commandLine, debugFile);
 
+            // Reset runresult status so we don't keep hitting this block
+            runresult.status = "";
             continue;
         }
         displayRecords(screenProps, controlFields, labels, winFormScreen, winScroll, commandLine, debugFile);
     }
+    return "";
 }
 
 

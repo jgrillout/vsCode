@@ -127,7 +127,7 @@ private:
     void pageDown();
     void moveToTop();
     void moveToBottom();
-    void handleInput(PassParams& transControlPassParams, std::vector<ScreenProperties>& screenProps, std::vector<LabelProperties>& labels, std::vector<controlFieldProperties>& controlFields, WINDOW* winFormScreen, WINDOW* winScroll, CommandLineProperties& commandLine, std::vector<DataEntryFieldProperties>& allFields, std::ofstream& debugFile);
+    std::string handleInput(PassParams& transControlPassParams, std::vector<ScreenProperties>& screenProps, std::vector<LabelProperties>& labels, std::vector<controlFieldProperties>& controlFields, WINDOW* winFormScreen, WINDOW* winScroll, CommandLineProperties& commandLine, std::vector<DataEntryFieldProperties>& allFields, std::ofstream& debugFile);
     RunResult handleCommandKey(int key, PassParams& transControlPassParams, std::vector<ScreenProperties>& screenProps, const std::vector<LabelProperties>& labels, std::vector<controlFieldProperties>& controlFields, WINDOW* windScroll, CommandLineProperties& commandLine, std::vector<DataEntryFieldProperties>& allFields, std::ofstream& debugFile);
 
 public:
